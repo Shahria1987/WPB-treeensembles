@@ -1,0 +1,45 @@
+========================================================================
+  CatBoost TUNED (26 features)  —  seed=123  window=12
+  Features: 26 × window 12 = 312 flat
+========================================================================
+Shapes: train=(11628, 312)  val=(456, 312)  t-test=(1368, 312)  s-test=(360, 312)
+
+  Training CatBoost for Temperature (seed=123) …
+    lr=0.012758  depth=8  l2=3.8478  rsm=0.6334
+  → best iter: 381   best val MAE (norm): 0.018863
+  → saved model to models/seed123_temperature.cbm
+
+  Training CatBoost for Humidity (seed=123) …
+    lr=0.008649  depth=8  l2=1.7725  rsm=0.6884
+  → best iter: 1072   best val MAE (norm): 0.022606
+  → saved model to models/seed123_humidity.cbm
+
+  Training time: 4.38 min
+
+════════════════════════════════════════════════════════════════════════
+  TEMPORAL TEST — catboost_tuned_seed123
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0204       0.7600
+  Temperature   RMSE         0.0260       0.9703
+  Temperature   R2           0.8872       0.8872
+  Temperature   MAPE         3.6753       2.5018
+  Humidity      MAE          0.0228       1.9115
+  Humidity      RMSE         0.0297       2.4856
+  Humidity      R2           0.8036       0.8036
+  Humidity      MAPE         3.8387       2.6133
+  → predictions saved to predictions/seed123_temporal_predictions.csv
+
+════════════════════════════════════════════════════════════════════════
+  SPATIAL TEST  — catboost_tuned_seed123
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0230       0.8580
+  Temperature   RMSE         0.0294       1.0953
+  Temperature   R2           0.8638       0.8638
+  Temperature   MAPE         4.1752       2.8321
+  Humidity      MAE          0.0238       1.9914
+  Humidity      RMSE         0.0307       2.5728
+  Humidity      R2           0.7395       0.7395
+  Humidity      MAPE         3.9889       2.7204
+  → predictions saved to predictions/seed123_spatial_predictions.csv

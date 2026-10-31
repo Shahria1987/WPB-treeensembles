@@ -1,0 +1,40 @@
+========================================================================
+  CatBoost TUNED (26 features) — horizon=2  seed=999  window=12
+========================================================================
+Shapes: train=(11609, 312)  val=(437, 312)  t-test=(1349, 312)  s-test=(355, 312)
+
+  Training CatBoost for Temperature (seed=999) …
+  → best iter: 346   best val MAE (norm): 0.019702
+
+  Training CatBoost for Humidity (seed=999) …
+  → best iter: 1156   best val MAE (norm): 0.024079
+
+  Training time: 3.26 min
+
+════════════════════════════════════════════════════════════════════════
+  TEMPORAL TEST — catboost_tuned_h2_seed999
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0216       0.8045
+  Temperature   RMSE         0.0277       1.0335
+  Temperature   R2           0.8691       0.8691
+  Temperature   MAPE         3.8796       2.6419
+  Humidity      MAE          0.0245       2.0509
+  Humidity      RMSE         0.0322       2.6963
+  Humidity      R2           0.7685       0.7685
+  Humidity      MAPE         4.1073       2.7983
+  → predictions saved to predictions/h2_h3/h2_seed999_temporal_predictions.csv
+
+════════════════════════════════════════════════════════════════════════
+  SPATIAL TEST — catboost_tuned_h2_seed999
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0241       0.8965
+  Temperature   RMSE         0.0310       1.1569
+  Temperature   R2           0.8452       0.8452
+  Temperature   MAPE         4.3389       2.9463
+  Humidity      MAE          0.0259       2.1695
+  Humidity      RMSE         0.0337       2.8248
+  Humidity      R2           0.6888       0.6888
+  Humidity      MAPE         4.3435       2.9626
+  → predictions saved to predictions/h2_h3/h2_seed999_spatial_predictions.csv

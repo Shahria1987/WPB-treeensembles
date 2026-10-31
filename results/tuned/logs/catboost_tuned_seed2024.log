@@ -1,0 +1,45 @@
+========================================================================
+  CatBoost TUNED (26 features)  —  seed=2024  window=12
+  Features: 26 × window 12 = 312 flat
+========================================================================
+Shapes: train=(11628, 312)  val=(456, 312)  t-test=(1368, 312)  s-test=(360, 312)
+
+  Training CatBoost for Temperature (seed=2024) …
+    lr=0.012758  depth=8  l2=3.8478  rsm=0.6334
+  → best iter: 447   best val MAE (norm): 0.018568
+  → saved model to models/seed2024_temperature.cbm
+
+  Training CatBoost for Humidity (seed=2024) …
+    lr=0.008649  depth=8  l2=1.7725  rsm=0.6884
+  → best iter: 888   best val MAE (norm): 0.022744
+  → saved model to models/seed2024_humidity.cbm
+
+  Training time: 4.05 min
+
+════════════════════════════════════════════════════════════════════════
+  TEMPORAL TEST — catboost_tuned_seed2024
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0201       0.7494
+  Temperature   RMSE         0.0258       0.9627
+  Temperature   R2           0.8890       0.8890
+  Temperature   MAPE         3.6302       2.4700
+  Humidity      MAE          0.0229       1.9171
+  Humidity      RMSE         0.0296       2.4831
+  Humidity      R2           0.8040       0.8040
+  Humidity      MAPE         3.8509       2.6214
+  → predictions saved to predictions/seed2024_temporal_predictions.csv
+
+════════════════════════════════════════════════════════════════════════
+  SPATIAL TEST  — catboost_tuned_seed2024
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0229       0.8515
+  Temperature   RMSE         0.0293       1.0937
+  Temperature   R2           0.8642       0.8642
+  Temperature   MAPE         4.1536       2.8154
+  Humidity      MAE          0.0241       2.0212
+  Humidity      RMSE         0.0310       2.5926
+  Humidity      R2           0.7355       0.7355
+  Humidity      MAPE         4.0526       2.7630
+  → predictions saved to predictions/seed2024_spatial_predictions.csv

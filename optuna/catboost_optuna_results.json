@@ -1,0 +1,106 @@
+[
+  {
+    "tag": "catboost_optuna_seed42",
+    "model": "CatBoost-Optuna",
+    "seed": 42,
+    "window": 12,
+    "n_features": 26,
+    "n_flat_features": 312,
+    "n_trials": 50,
+    "best_iter_temp": 457,
+    "best_iter_hum": 923,
+    "best_val_temp": 0.018464980067137468,
+    "best_val_hum": 0.022527674504004357,
+    "best_params_temp": {
+      "learning_rate": 0.012758037180210544,
+      "depth": 8,
+      "l2_leaf_reg": 3.847811635133765,
+      "bagging_temperature": 0.4140684194606276,
+      "random_strength": 0.0033453865372889253,
+      "min_data_in_leaf": 80,
+      "rsm": 0.6333709751024439
+    },
+    "best_params_hum": {
+      "learning_rate": 0.008648828378800204,
+      "depth": 8,
+      "l2_leaf_reg": 1.7724554369785153,
+      "bagging_temperature": 0.7997150432496581,
+      "random_strength": 1.2099810816115689e-05,
+      "min_data_in_leaf": 45,
+      "rsm": 0.6884245108472264
+    },
+    "tune_time_temp_min": 93.29,
+    "tune_time_hum_min": 126.63,
+    "total_time_min": 223.74,
+    "rescale": {
+      "temp": [
+        16.95,
+        39.31
+      ],
+      "hum": [
+        39.81,
+        90.06
+      ]
+    },
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0203,
+          "RMSE": 0.026,
+          "R2": 0.8879,
+          "MAPE": 3.6671
+        },
+        "rescaled": {
+          "MAE": 0.7571,
+          "RMSE": 0.9676,
+          "R2": 0.8879,
+          "MAPE": 2.4953
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0228,
+          "RMSE": 0.0297,
+          "R2": 0.8035,
+          "MAPE": 3.8395
+        },
+        "rescaled": {
+          "MAE": 1.9106,
+          "RMSE": 2.486,
+          "R2": 0.8035,
+          "MAPE": 2.6131
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0231,
+          "RMSE": 0.0294,
+          "R2": 0.8633,
+          "MAPE": 4.1921
+        },
+        "rescaled": {
+          "MAE": 0.8594,
+          "RMSE": 1.0973,
+          "R2": 0.8633,
+          "MAPE": 2.8418
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0241,
+          "RMSE": 0.0309,
+          "R2": 0.7362,
+          "MAPE": 4.0389
+        },
+        "rescaled": {
+          "MAE": 2.0164,
+          "RMSE": 2.5887,
+          "R2": 0.7362,
+          "MAPE": 2.7545
+        }
+      }
+    }
+  }
+]

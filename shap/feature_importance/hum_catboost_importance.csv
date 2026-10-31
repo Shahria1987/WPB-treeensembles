@@ -1,0 +1,27 @@
+feature_name,importance
+Humidity (percent),29.463888
+Humidity (percent)_rolling_mean_3,11.811876
+Month,9.768571
+Humidity (percent)_rolling_mean_7,6.207289
+Year,3.893632
+Temperature (Deg.Cel)_rolling_std_3,3.513149
+Humidity (percent)_lag3,3.292657
+Humidity (percent)_rolling_std_3,3.123668
+Humidity (percent)_diff_lag1,2.826756
+Humidity (percent)_lag1,2.702692
+Cloud Coverage (Octs),2.618057
+Humidity (percent)_lag2,2.550175
+Month_cos,2.455198
+Total Rainfall (mm),2.249785
+Month_sin,2.072303
+Solar Radiation,1.950801
+ETo,1.889372
+PET,1.611284
+Temperature (Deg.Cel)_rolling_mean_3,1.008185
+Temperature (Deg.Cel)_lag1,0.931696
+Temperature (Deg.Cel)_lag3,0.777463
+Wind Speed (m/s),0.770811
+Temperature (Deg.Cel),0.765927
+Sunshine (Hours),0.714508
+Temperature (Deg.Cel)_rolling_mean_7,0.580876
+Temperature (Deg.Cel)_lag2,0.449383

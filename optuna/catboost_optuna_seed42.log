@@ -1,0 +1,153 @@
+========================================================================
+  CatBoost + Optuna (26 features)  —  seed=42  window=12
+  n_trials=50  sampler=TPE(seed=42)  pruner=Median
+  Features: 26 × window 12 = 312 flat
+  Rescale: temp [16.95, 39.31], hum [39.81, 90.06]
+========================================================================
+Shapes: train=(11628, 312)  val=(456, 312)  t-test=(1368, 312)  s-test=(360, 312)
+
+────────────────────────────────────────────────────────────────────────
+  Optuna tuning for Temperature (50 trials, seed=42)
+────────────────────────────────────────────────────────────────────────
+  [Temperature] Trial   1/50  val=0.019061      best=0.019061    best_iter=548   state=COMPLETE  elapsed=  121s  ETA= 5937s
+  [Temperature] Trial   2/50  val=0.019662      best=0.019061    best_iter=74    state=COMPLETE  elapsed=  139s  ETA= 3334s
+  [Temperature] Trial   3/50  val=0.019096      best=0.019061    best_iter=1995  state=COMPLETE  elapsed=  186s  ETA= 2910s
+  [Temperature] Trial   4/50  val=0.019202      best=0.019061    best_iter=1999  state=COMPLETE  elapsed=  257s  ETA= 2952s
+  [Temperature] Trial   5/50  val=0.019033      best=0.019033    best_iter=327   state=COMPLETE  elapsed=  263s  ETA= 2371s
+  [Temperature] Trial   6/50  val=0.018859      best=0.018859    best_iter=84    state=COMPLETE  elapsed=  268s  ETA= 1968s
+  [Temperature] Trial   7/50  val=0.021293      best=0.018859    best_iter=1999  state=COMPLETE  elapsed=  854s  ETA= 5246s
+  [Temperature] Trial   8/50  val=0.019087      best=0.018859    best_iter=1908  state=COMPLETE  elapsed= 1554s  ETA= 8158s
+  [Temperature] Trial   9/50  val=0.020668      best=0.018859    best_iter=1999  state=COMPLETE  elapsed= 1605s  ETA= 7312s
+  [Temperature] Trial  10/50  val=0.019126      best=0.018859    best_iter=817   state=COMPLETE  elapsed= 1627s  ETA= 6508s
+  [Temperature] Trial  11/50  val=0.019228      best=0.018859    best_iter=20    state=COMPLETE  elapsed= 1638s  ETA= 5808s
+  [Temperature] Trial  12/50  val=0.019367      best=0.018859    best_iter=113   state=COMPLETE  elapsed= 1641s  ETA= 5197s
+  [Temperature] Trial  13/50  val=0.018687      best=0.018687    best_iter=156   state=COMPLETE  elapsed= 1652s  ETA= 4703s
+  [Temperature] Trial  14/50  val=0.018860      best=0.018687    best_iter=65    state=COMPLETE  elapsed= 1659s  ETA= 4266s
+  [Temperature] Trial  15/50  val=0.018702      best=0.018687    best_iter=265   state=COMPLETE  elapsed= 1677s  ETA= 3913s
+  [Temperature] Trial  16/50  val=0.018611      best=0.018611    best_iter=398   state=COMPLETE  elapsed= 1745s  ETA= 3707s
+  [Temperature] Trial  17/50  val=0.018648      best=0.018611    best_iter=573   state=COMPLETE  elapsed= 1830s  ETA= 3551s
+  [Temperature] Trial  18/50  val=0.018817      best=0.018611    best_iter=668   state=COMPLETE  elapsed= 2000s  ETA= 3556s
+  [Temperature] Trial  19/50  val=0.018771      best=0.018611    best_iter=362   state=COMPLETE  elapsed= 2059s  ETA= 3359s
+  [Temperature] Trial  20/50  val=0.018669      best=0.018611    best_iter=946   state=COMPLETE  elapsed= 2321s  ETA= 3481s
+  [Temperature] Trial  21/50  val=0.018865      best=0.018611    best_iter=286   state=COMPLETE  elapsed= 2407s  ETA= 3324s
+  [Temperature] Trial  22/50  val=0.018712      best=0.018611    best_iter=960   state=COMPLETE  elapsed= 2682s  ETA= 3413s
+  [Temperature] Trial  23/50  val=0.018644      best=0.018611    best_iter=899   state=COMPLETE  elapsed= 2816s  ETA= 3306s
+  [Temperature] Trial  24/50  val=0.018635      best=0.018611    best_iter=449   state=COMPLETE  elapsed= 2891s  ETA= 3132s
+  [Temperature] Trial  25/50  val=0.018465      best=0.018465    best_iter=457   state=COMPLETE  elapsed= 2967s  ETA= 2967s
+  [Temperature] Trial  26/50  val=0.018676      best=0.018465    best_iter=284   state=COMPLETE  elapsed= 2978s  ETA= 2748s
+  [Temperature] Trial  27/50  val=0.018724      best=0.018465    best_iter=421   state=COMPLETE  elapsed= 3007s  ETA= 2561s
+  [Temperature] Trial  28/50  val=0.019373      best=0.018465    best_iter=314   state=COMPLETE  elapsed= 3109s  ETA= 2443s
+  [Temperature] Trial  29/50  val=0.018675      best=0.018465    best_iter=403   state=COMPLETE  elapsed= 3182s  ETA= 2305s
+  [Temperature] Trial  30/50  val=0.018914      best=0.018465    best_iter=95    state=COMPLETE  elapsed= 3226s  ETA= 2151s
+  [Temperature] Trial  31/50  val=0.018845      best=0.018465    best_iter=511   state=COMPLETE  elapsed= 3257s  ETA= 1996s
+  [Temperature] Trial  32/50  val=0.018776      best=0.018465    best_iter=894   state=COMPLETE  elapsed= 3381s  ETA= 1902s
+  [Temperature] Trial  33/50  val=0.018668      best=0.018465    best_iter=1452  state=COMPLETE  elapsed= 3618s  ETA= 1864s
+  [Temperature] Trial  34/50  val=0.018630      best=0.018465    best_iter=658   state=COMPLETE  elapsed= 3723s  ETA= 1752s
+  [Temperature] Trial  35/50  val=0.018703      best=0.018465    best_iter=593   state=COMPLETE  elapsed= 3901s  ETA= 1672s
+  [Temperature] Trial  36/50  val=0.018917      best=0.018465    best_iter=193   state=COMPLETE  elapsed= 3938s  ETA= 1531s
+  [Temperature] Trial  37/50  val=0.018993      best=0.018465    best_iter=646   state=COMPLETE  elapsed= 3962s  ETA= 1392s
+  [Temperature] Trial  38/50  val=0.018704      best=0.018465    best_iter=354   state=COMPLETE  elapsed= 3982s  ETA= 1258s
+  [Temperature] Trial  39/50  val=0.018778      best=0.018465    best_iter=1494  state=COMPLETE  elapsed= 4376s  ETA= 1234s
+  [Temperature] Trial  40/50  val=0.018966      best=0.018465    best_iter=862   state=COMPLETE  elapsed= 4440s  ETA= 1110s
+  [Temperature] Trial  41/50  val=0.021253      best=0.018465    best_iter=1999  state=COMPLETE  elapsed= 4769s  ETA= 1047s
+  [Temperature] Trial  42/50  val=0.018609      best=0.018465    best_iter=1045  state=COMPLETE  elapsed= 4925s  ETA=  938s
+  [Temperature] Trial  43/50  val=0.018711      best=0.018465    best_iter=339   state=COMPLETE  elapsed= 4980s  ETA=  811s
+  [Temperature] Trial  44/50  val=0.018674      best=0.018465    best_iter=794   state=COMPLETE  elapsed= 5108s  ETA=  697s
+  [Temperature] Trial  45/50  val=0.018837      best=0.018465    best_iter=1156  state=COMPLETE  elapsed= 5399s  ETA=  600s
+  [Temperature] Trial  46/50  val=0.018640      best=0.018465    best_iter=209   state=COMPLETE  elapsed= 5436s  ETA=  473s
+  [Temperature] Trial  47/50  val=0.018504      best=0.018465    best_iter=140   state=COMPLETE  elapsed= 5450s  ETA=  348s
+  [Temperature] Trial  48/50  val=0.019070      best=0.018465    best_iter=132   state=COMPLETE  elapsed= 5457s  ETA=  227s
+  [Temperature] Trial  49/50  val=0.018805      best=0.018465    best_iter=47    state=COMPLETE  elapsed= 5464s  ETA=  112s
+  [Temperature] Trial  50/50  val=0.021591      best=0.018465    best_iter=1999  state=COMPLETE  elapsed= 5597s  ETA=    0s
+  → tuning time: 93.29 min  best val MAE (norm): 0.018465
+  → best params: {'learning_rate': 0.012758037180210544, 'depth': 8, 'l2_leaf_reg': 3.847811635133765, 'bagging_temperature': 0.4140684194606276, 'random_strength': 0.0033453865372889253, 'min_data_in_leaf': 80, 'rsm': 0.6333709751024439}
+
+────────────────────────────────────────────────────────────────────────
+  Optuna tuning for Humidity (50 trials, seed=42)
+────────────────────────────────────────────────────────────────────────
+  [Humidity] Trial   1/50  val=0.022816      best=0.022816    best_iter=880   state=COMPLETE  elapsed=  189s  ETA= 9245s
+  [Humidity] Trial   2/50  val=0.023520      best=0.022816    best_iter=122   state=COMPLETE  elapsed=  214s  ETA= 5129s
+  [Humidity] Trial   3/50  val=0.023730      best=0.022816    best_iter=1999  state=COMPLETE  elapsed=  261s  ETA= 4094s
+  [Humidity] Trial   4/50  val=0.023969      best=0.022816    best_iter=1999  state=COMPLETE  elapsed=  332s  ETA= 3817s
+  [Humidity] Trial   5/50  val=0.023269      best=0.022816    best_iter=352   state=COMPLETE  elapsed=  339s  ETA= 3053s
+  [Humidity] Trial   6/50  val=0.022542      best=0.022542    best_iter=110   state=COMPLETE  elapsed=  345s  ETA= 2530s
+  [Humidity] Trial   7/50  val=0.024807      best=0.022542    best_iter=1999  state=COMPLETE  elapsed=  923s  ETA= 5669s
+  [Humidity] Trial   8/50  val=0.023198      best=0.022542    best_iter=1999  state=COMPLETE  elapsed= 1634s  ETA= 8581s
+  [Humidity] Trial   9/50  val=0.024519      best=0.022542    best_iter=1999  state=COMPLETE  elapsed= 1684s  ETA= 7673s
+  [Humidity] Trial  10/50  val=0.023356      best=0.022542    best_iter=989   state=COMPLETE  elapsed= 1711s  ETA= 6843s
+  [Humidity] Trial  11/50  val=0.023225      best=0.022542    best_iter=21    state=COMPLETE  elapsed= 1722s  ETA= 6105s
+  [Humidity] Trial  12/50  val=0.023070      best=0.022542    best_iter=340   state=COMPLETE  elapsed= 1740s  ETA= 5509s
+  [Humidity] Trial  13/50  val=0.022657      best=0.022542    best_iter=699   state=COMPLETE  elapsed= 1853s  ETA= 5273s
+  [Humidity] Trial  14/50  val=0.023403      best=0.022542    best_iter=113   state=COMPLETE  elapsed= 1878s  ETA= 4830s
+  [Humidity] Trial  15/50  val=0.022935      best=0.022542    best_iter=726   state=COMPLETE  elapsed= 1933s  ETA= 4510s
+  [Humidity] Trial  16/50  val=0.023124      best=0.022542    best_iter=145   state=COMPLETE  elapsed= 1990s  ETA= 4229s
+  [Humidity] Trial  17/50  val=0.023372      best=0.022542    best_iter=425   state=COMPLETE  elapsed= 2006s  ETA= 3894s
+  [Humidity] Trial  18/50  val=0.023362      best=0.022542    best_iter=561   state=COMPLETE  elapsed= 2025s  ETA= 3600s
+  [Humidity] Trial  19/50  val=0.024495      best=0.022542    best_iter=16    state=COMPLETE  elapsed= 2047s  ETA= 3339s
+  [Humidity] Trial  20/50  val=0.022933      best=0.022542    best_iter=1490  state=COMPLETE  elapsed= 2125s  ETA= 3188s
+  [Humidity] Trial  21/50  val=0.023271      best=0.022542    best_iter=105   state=COMPLETE  elapsed= 2173s  ETA= 3000s
+  [Humidity] Trial  22/50  val=0.023114      best=0.022542    best_iter=1026  state=COMPLETE  elapsed= 2380s  ETA= 3029s
+  [Humidity] Trial  23/50  val=0.023048      best=0.022542    best_iter=582   state=COMPLETE  elapsed= 2465s  ETA= 2894s
+  [Humidity] Trial  24/50  val=0.022645      best=0.022542    best_iter=419   state=COMPLETE  elapsed= 2587s  ETA= 2802s
+  [Humidity] Trial  25/50  val=0.022942      best=0.022542    best_iter=398   state=COMPLETE  elapsed= 2705s  ETA= 2705s
+  [Humidity] Trial  26/50  val=0.023042      best=0.022542    best_iter=38    state=COMPLETE  elapsed= 2719s  ETA= 2510s
+  [Humidity] Trial  27/50  val=0.022868      best=0.022542    best_iter=315   state=COMPLETE  elapsed= 2731s  ETA= 2326s
+  [Humidity] Trial  28/50  val=0.023054      best=0.022542    best_iter=68    state=COMPLETE  elapsed= 2737s  ETA= 2150s
+  [Humidity] Trial  29/50  val=0.023341      best=0.022542    best_iter=1829  state=COMPLETE  elapsed= 2767s  ETA= 2004s
+  [Humidity] Trial  30/50  val=0.022819      best=0.022542    best_iter=776   state=COMPLETE  elapsed= 3002s  ETA= 2001s
+  [Humidity] Trial  31/50  val=0.023350      best=0.022542    best_iter=197   state=COMPLETE  elapsed= 3018s  ETA= 1850s
+  [Humidity] Trial  32/50  val=0.023051      best=0.022542    best_iter=1033  state=COMPLETE  elapsed= 3255s  ETA= 1831s
+  [Humidity] Trial  33/50  val=0.023285      best=0.022542    best_iter=113   state=COMPLETE  elapsed= 3276s  ETA= 1688s
+  [Humidity] Trial  34/50  val=0.022902      best=0.022542    best_iter=1999  state=COMPLETE  elapsed= 3787s  ETA= 1782s
+  [Humidity] Trial  35/50  val=0.023440      best=0.022542    best_iter=209   state=COMPLETE  elapsed= 3846s  ETA= 1648s
+  [Humidity] Trial  36/50  val=0.023241      best=0.022542    best_iter=691   state=COMPLETE  elapsed= 3863s  ETA= 1502s
+  [Humidity] Trial  37/50  val=0.022792      best=0.022542    best_iter=524   state=COMPLETE  elapsed= 4001s  ETA= 1406s
+  [Humidity] Trial  38/50  val=0.022858      best=0.022542    best_iter=431   state=COMPLETE  elapsed= 4139s  ETA= 1307s
+  [Humidity] Trial  39/50  val=0.023501      best=0.022542    best_iter=121   state=COMPLETE  elapsed= 4192s  ETA= 1182s
+  [Humidity] Trial  40/50  val=0.023217      best=0.022542    best_iter=250   state=COMPLETE  elapsed= 4272s  ETA= 1068s
+  [Humidity] Trial  41/50  val=0.022774      best=0.022542    best_iter=1171  state=COMPLETE  elapsed= 4661s  ETA= 1023s
+  [Humidity] Trial  42/50  val=0.022714      best=0.022542    best_iter=1197  state=COMPLETE  elapsed= 5055s  ETA=  963s
+  [Humidity] Trial  43/50  val=0.022861      best=0.022542    best_iter=1997  state=COMPLETE  elapsed= 5685s  ETA=  925s
+  [Humidity] Trial  44/50  val=0.023797      best=0.022542    best_iter=1999  state=COMPLETE  elapsed= 6022s  ETA=  821s
+  [Humidity] Trial  45/50  val=0.023302      best=0.022542    best_iter=1978  state=COMPLETE  elapsed= 6670s  ETA=  741s
+  [Humidity] Trial  46/50  val=0.022528      best=0.022528    best_iter=923   state=COMPLETE  elapsed= 6823s  ETA=  593s
+  [Humidity] Trial  47/50  val=0.022772      best=0.022528    best_iter=1023  state=COMPLETE  elapsed= 6881s  ETA=  439s
+  [Humidity] Trial  48/50  val=0.022866      best=0.022528    best_iter=1999  state=COMPLETE  elapsed= 7196s  ETA=  300s
+  [Humidity] Trial  49/50  val=0.024866      best=0.022528    best_iter=1999  state=COMPLETE  elapsed= 7530s  ETA=  154s
+  [Humidity] Trial  50/50  val=0.023845      best=0.022528    best_iter=1999  state=COMPLETE  elapsed= 7598s  ETA=    0s
+  → tuning time: 126.63 min  best val MAE (norm): 0.022528
+  → best params: {'learning_rate': 0.008648828378800204, 'depth': 8, 'l2_leaf_reg': 1.7724554369785153, 'bagging_temperature': 0.7997150432496581, 'random_strength': 1.2099810816115689e-05, 'min_data_in_leaf': 45, 'rsm': 0.6884245108472264}
+
+  Refitting CatBoost for Temperature with best params …
+  → best iter: 457   best val MAE (norm): 0.018465
+
+  Refitting CatBoost for Humidity with best params …
+  → best iter: 923   best val MAE (norm): 0.022528
+
+  Total time (tune + refit): 223.74 min
+
+════════════════════════════════════════════════════════════════════════
+  TEMPORAL TEST — catboost_optuna_seed42
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0203       0.7571
+  Temperature   RMSE         0.0260       0.9676
+  Temperature   R2           0.8879       0.8879
+  Temperature   MAPE         3.6671       2.4953
+  Humidity      MAE          0.0228       1.9106
+  Humidity      RMSE         0.0297       2.4860
+  Humidity      R2           0.8035       0.8035
+  Humidity      MAPE         3.8395       2.6131
+
+════════════════════════════════════════════════════════════════════════
+  SPATIAL TEST  — catboost_optuna_seed42
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0231       0.8594
+  Temperature   RMSE         0.0294       1.0973
+  Temperature   R2           0.8633       0.8633
+  Temperature   MAPE         4.1921       2.8418
+  Humidity      MAE          0.0241       2.0164
+  Humidity      RMSE         0.0309       2.5887
+  Humidity      R2           0.7362       0.7362
+  Humidity      MAPE         4.0389       2.7545

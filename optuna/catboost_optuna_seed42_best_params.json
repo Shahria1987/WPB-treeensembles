@@ -1,0 +1,26 @@
+{
+  "temperature": {
+    "best_params": {
+      "learning_rate": 0.012758037180210544,
+      "depth": 8,
+      "l2_leaf_reg": 3.847811635133765,
+      "bagging_temperature": 0.4140684194606276,
+      "random_strength": 0.0033453865372889253,
+      "min_data_in_leaf": 80,
+      "rsm": 0.6333709751024439
+    },
+    "best_value": 0.018464980067137468
+  },
+  "humidity": {
+    "best_params": {
+      "learning_rate": 0.008648828378800204,
+      "depth": 8,
+      "l2_leaf_reg": 1.7724554369785153,
+      "bagging_temperature": 0.7997150432496581,
+      "random_strength": 1.2099810816115689e-05,
+      "min_data_in_leaf": 45,
+      "rsm": 0.6884245108472264
+    },
+    "best_value": 0.022527674504004357
+  }
+}

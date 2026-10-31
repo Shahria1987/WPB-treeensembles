@@ -1,0 +1,577 @@
+[
+  {
+    "tag": "catboost_tuned_seed42",
+    "model": "CatBoost-Tuned",
+    "seed": 42,
+    "window": 12,
+    "n_features": 26,
+    "n_flat_feat": 312,
+    "best_iter_temp": 457,
+    "best_iter_hum": 923,
+    "best_val_MAE_temp_norm": 0.018464980067137468,
+    "best_val_MAE_hum_norm": 0.022527674504004357,
+    "train_time_min": 4.12,
+    "hyperparams": {
+      "temperature": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.012758037180210544,
+        "depth": 8,
+        "l2_leaf_reg": 3.847811635133765,
+        "bagging_temperature": 0.4140684194606276,
+        "random_strength": 0.0033453865372889253,
+        "min_data_in_leaf": 80,
+        "rsm": 0.6333709751024439,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 42
+      },
+      "humidity": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.008648828378800204,
+        "depth": 8,
+        "l2_leaf_reg": 1.7724554369785153,
+        "bagging_temperature": 0.7997150432496581,
+        "random_strength": 1.2099810816115689e-05,
+        "min_data_in_leaf": 45,
+        "rsm": 0.6884245108472264,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 42
+      }
+    },
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0203,
+          "RMSE": 0.026,
+          "R2": 0.8879,
+          "MAPE": 3.6671
+        },
+        "rescaled": {
+          "MAE": 0.7571,
+          "RMSE": 0.9676,
+          "R2": 0.8879,
+          "MAPE": 2.4953
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0228,
+          "RMSE": 0.0297,
+          "R2": 0.8035,
+          "MAPE": 3.8395
+        },
+        "rescaled": {
+          "MAE": 1.9106,
+          "RMSE": 2.486,
+          "R2": 0.8035,
+          "MAPE": 2.6131
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0231,
+          "RMSE": 0.0294,
+          "R2": 0.8633,
+          "MAPE": 4.1921
+        },
+        "rescaled": {
+          "MAE": 0.8594,
+          "RMSE": 1.0973,
+          "R2": 0.8633,
+          "MAPE": 2.8418
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0241,
+          "RMSE": 0.0309,
+          "R2": 0.7362,
+          "MAPE": 4.0389
+        },
+        "rescaled": {
+          "MAE": 2.0164,
+          "RMSE": 2.5887,
+          "R2": 0.7362,
+          "MAPE": 2.7545
+        }
+      }
+    },
+    "files": {
+      "model_temp": "models/seed42_temperature.cbm",
+      "model_hum": "models/seed42_humidity.cbm",
+      "preds_temporal": "predictions/seed42_temporal_predictions.csv",
+      "preds_spatial": "predictions/seed42_spatial_predictions.csv"
+    }
+  },
+  {
+    "tag": "catboost_tuned_seed7",
+    "model": "CatBoost-Tuned",
+    "seed": 7,
+    "window": 12,
+    "n_features": 26,
+    "n_flat_feat": 312,
+    "best_iter_temp": 387,
+    "best_iter_hum": 864,
+    "best_val_MAE_temp_norm": 0.018814199366296913,
+    "best_val_MAE_hum_norm": 0.022994402110679275,
+    "train_time_min": 3.79,
+    "hyperparams": {
+      "temperature": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.012758037180210544,
+        "depth": 8,
+        "l2_leaf_reg": 3.847811635133765,
+        "bagging_temperature": 0.4140684194606276,
+        "random_strength": 0.0033453865372889253,
+        "min_data_in_leaf": 80,
+        "rsm": 0.6333709751024439,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 7
+      },
+      "humidity": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.008648828378800204,
+        "depth": 8,
+        "l2_leaf_reg": 1.7724554369785153,
+        "bagging_temperature": 0.7997150432496581,
+        "random_strength": 1.2099810816115689e-05,
+        "min_data_in_leaf": 45,
+        "rsm": 0.6884245108472264,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 7
+      }
+    },
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0201,
+          "RMSE": 0.0258,
+          "R2": 0.889,
+          "MAPE": 3.6357
+        },
+        "rescaled": {
+          "MAE": 0.7501,
+          "RMSE": 0.9626,
+          "R2": 0.889,
+          "MAPE": 2.4727
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0228,
+          "RMSE": 0.0295,
+          "R2": 0.8053,
+          "MAPE": 3.8315
+        },
+        "rescaled": {
+          "MAE": 1.9074,
+          "RMSE": 2.4745,
+          "R2": 0.8053,
+          "MAPE": 2.608
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0226,
+          "RMSE": 0.0291,
+          "R2": 0.8663,
+          "MAPE": 4.1051
+        },
+        "rescaled": {
+          "MAE": 0.8423,
+          "RMSE": 1.0854,
+          "R2": 0.8663,
+          "MAPE": 2.7827
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0238,
+          "RMSE": 0.0306,
+          "R2": 0.7414,
+          "MAPE": 3.9946
+        },
+        "rescaled": {
+          "MAE": 1.9939,
+          "RMSE": 2.5631,
+          "R2": 0.7414,
+          "MAPE": 2.7241
+        }
+      }
+    },
+    "files": {
+      "model_temp": "models/seed7_temperature.cbm",
+      "model_hum": "models/seed7_humidity.cbm",
+      "preds_temporal": "predictions/seed7_temporal_predictions.csv",
+      "preds_spatial": "predictions/seed7_spatial_predictions.csv"
+    }
+  },
+  {
+    "tag": "catboost_tuned_seed123",
+    "model": "CatBoost-Tuned",
+    "seed": 123,
+    "window": 12,
+    "n_features": 26,
+    "n_flat_feat": 312,
+    "best_iter_temp": 381,
+    "best_iter_hum": 1072,
+    "best_val_MAE_temp_norm": 0.018862716170348164,
+    "best_val_MAE_hum_norm": 0.022606288346991396,
+    "train_time_min": 4.38,
+    "hyperparams": {
+      "temperature": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.012758037180210544,
+        "depth": 8,
+        "l2_leaf_reg": 3.847811635133765,
+        "bagging_temperature": 0.4140684194606276,
+        "random_strength": 0.0033453865372889253,
+        "min_data_in_leaf": 80,
+        "rsm": 0.6333709751024439,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 123
+      },
+      "humidity": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.008648828378800204,
+        "depth": 8,
+        "l2_leaf_reg": 1.7724554369785153,
+        "bagging_temperature": 0.7997150432496581,
+        "random_strength": 1.2099810816115689e-05,
+        "min_data_in_leaf": 45,
+        "rsm": 0.6884245108472264,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 123
+      }
+    },
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0204,
+          "RMSE": 0.026,
+          "R2": 0.8872,
+          "MAPE": 3.6753
+        },
+        "rescaled": {
+          "MAE": 0.76,
+          "RMSE": 0.9703,
+          "R2": 0.8872,
+          "MAPE": 2.5018
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0228,
+          "RMSE": 0.0297,
+          "R2": 0.8036,
+          "MAPE": 3.8387
+        },
+        "rescaled": {
+          "MAE": 1.9115,
+          "RMSE": 2.4856,
+          "R2": 0.8036,
+          "MAPE": 2.6133
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.023,
+          "RMSE": 0.0294,
+          "R2": 0.8638,
+          "MAPE": 4.1752
+        },
+        "rescaled": {
+          "MAE": 0.858,
+          "RMSE": 1.0953,
+          "R2": 0.8638,
+          "MAPE": 2.8321
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0238,
+          "RMSE": 0.0307,
+          "R2": 0.7395,
+          "MAPE": 3.9889
+        },
+        "rescaled": {
+          "MAE": 1.9914,
+          "RMSE": 2.5728,
+          "R2": 0.7395,
+          "MAPE": 2.7204
+        }
+      }
+    },
+    "files": {
+      "model_temp": "models/seed123_temperature.cbm",
+      "model_hum": "models/seed123_humidity.cbm",
+      "preds_temporal": "predictions/seed123_temporal_predictions.csv",
+      "preds_spatial": "predictions/seed123_spatial_predictions.csv"
+    }
+  },
+  {
+    "tag": "catboost_tuned_seed2024",
+    "model": "CatBoost-Tuned",
+    "seed": 2024,
+    "window": 12,
+    "n_features": 26,
+    "n_flat_feat": 312,
+    "best_iter_temp": 447,
+    "best_iter_hum": 888,
+    "best_val_MAE_temp_norm": 0.018568058127660002,
+    "best_val_MAE_hum_norm": 0.022743519259345278,
+    "train_time_min": 4.05,
+    "hyperparams": {
+      "temperature": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.012758037180210544,
+        "depth": 8,
+        "l2_leaf_reg": 3.847811635133765,
+        "bagging_temperature": 0.4140684194606276,
+        "random_strength": 0.0033453865372889253,
+        "min_data_in_leaf": 80,
+        "rsm": 0.6333709751024439,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 2024
+      },
+      "humidity": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.008648828378800204,
+        "depth": 8,
+        "l2_leaf_reg": 1.7724554369785153,
+        "bagging_temperature": 0.7997150432496581,
+        "random_strength": 1.2099810816115689e-05,
+        "min_data_in_leaf": 45,
+        "rsm": 0.6884245108472264,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 2024
+      }
+    },
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0201,
+          "RMSE": 0.0258,
+          "R2": 0.889,
+          "MAPE": 3.6302
+        },
+        "rescaled": {
+          "MAE": 0.7494,
+          "RMSE": 0.9627,
+          "R2": 0.889,
+          "MAPE": 2.47
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0229,
+          "RMSE": 0.0296,
+          "R2": 0.804,
+          "MAPE": 3.8509
+        },
+        "rescaled": {
+          "MAE": 1.9171,
+          "RMSE": 2.4831,
+          "R2": 0.804,
+          "MAPE": 2.6214
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0229,
+          "RMSE": 0.0293,
+          "R2": 0.8642,
+          "MAPE": 4.1536
+        },
+        "rescaled": {
+          "MAE": 0.8515,
+          "RMSE": 1.0937,
+          "R2": 0.8642,
+          "MAPE": 2.8154
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0241,
+          "RMSE": 0.031,
+          "R2": 0.7355,
+          "MAPE": 4.0526
+        },
+        "rescaled": {
+          "MAE": 2.0212,
+          "RMSE": 2.5926,
+          "R2": 0.7355,
+          "MAPE": 2.763
+        }
+      }
+    },
+    "files": {
+      "model_temp": "models/seed2024_temperature.cbm",
+      "model_hum": "models/seed2024_humidity.cbm",
+      "preds_temporal": "predictions/seed2024_temporal_predictions.csv",
+      "preds_spatial": "predictions/seed2024_spatial_predictions.csv"
+    }
+  },
+  {
+    "tag": "catboost_tuned_seed999",
+    "model": "CatBoost-Tuned",
+    "seed": 999,
+    "window": 12,
+    "n_features": 26,
+    "n_flat_feat": 312,
+    "best_iter_temp": 392,
+    "best_iter_hum": 972,
+    "best_val_MAE_temp_norm": 0.0186664533277354,
+    "best_val_MAE_hum_norm": 0.02276032726796817,
+    "train_time_min": 4.17,
+    "hyperparams": {
+      "temperature": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.012758037180210544,
+        "depth": 8,
+        "l2_leaf_reg": 3.847811635133765,
+        "bagging_temperature": 0.4140684194606276,
+        "random_strength": 0.0033453865372889253,
+        "min_data_in_leaf": 80,
+        "rsm": 0.6333709751024439,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 999
+      },
+      "humidity": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.008648828378800204,
+        "depth": 8,
+        "l2_leaf_reg": 1.7724554369785153,
+        "bagging_temperature": 0.7997150432496581,
+        "random_strength": 1.2099810816115689e-05,
+        "min_data_in_leaf": 45,
+        "rsm": 0.6884245108472264,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 999
+      }
+    },
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0203,
+          "RMSE": 0.026,
+          "R2": 0.8878,
+          "MAPE": 3.6639
+        },
+        "rescaled": {
+          "MAE": 0.7565,
+          "RMSE": 0.9679,
+          "R2": 0.8878,
+          "MAPE": 2.4927
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0229,
+          "RMSE": 0.0298,
+          "R2": 0.8023,
+          "MAPE": 3.8567
+        },
+        "rescaled": {
+          "MAE": 1.9158,
+          "RMSE": 2.4935,
+          "R2": 0.8023,
+          "MAPE": 2.6233
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0228,
+          "RMSE": 0.0293,
+          "R2": 0.865,
+          "MAPE": 4.1461
+        },
+        "rescaled": {
+          "MAE": 0.8512,
+          "RMSE": 1.0906,
+          "R2": 0.865,
+          "MAPE": 2.8113
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.024,
+          "RMSE": 0.0309,
+          "R2": 0.7367,
+          "MAPE": 4.0286
+        },
+        "rescaled": {
+          "MAE": 2.0068,
+          "RMSE": 2.5866,
+          "R2": 0.7367,
+          "MAPE": 2.7456
+        }
+      }
+    },
+    "files": {
+      "model_temp": "models/seed999_temperature.cbm",
+      "model_hum": "models/seed999_humidity.cbm",
+      "preds_temporal": "predictions/seed999_temporal_predictions.csv",
+      "preds_spatial": "predictions/seed999_spatial_predictions.csv"
+    }
+  }
+]

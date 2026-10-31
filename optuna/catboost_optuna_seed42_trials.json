@@ -1,0 +1,1506 @@
+{
+  "temperature": [
+    {
+      "number": 0,
+      "value": 0.019061118465537475,
+      "params": {
+        "learning_rate": 0.008468008575248327,
+        "depth": 10,
+        "l2_leaf_reg": 5.395030966670228,
+        "bagging_temperature": 0.5986584841970366,
+        "random_strength": 3.63233925694314e-08,
+        "min_data_in_leaf": 16,
+        "rsm": 0.5290418060840998
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 548
+    },
+    {
+      "number": 1,
+      "value": 0.019662479689447565,
+      "params": {
+        "learning_rate": 0.13983740016490973,
+        "depth": 8,
+        "l2_leaf_reg": 5.105903209394756,
+        "bagging_temperature": 0.020584494295802447,
+        "random_strength": 5.0014798288569295,
+        "min_data_in_leaf": 84,
+        "rsm": 0.6061695553391381
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 74
+    },
+    {
+      "number": 2,
+      "value": 0.019096348027461383,
+      "params": {
+        "learning_rate": 0.002820996133514492,
+        "depth": 5,
+        "l2_leaf_reg": 2.0148477884158655,
+        "bagging_temperature": 0.5247564316322378,
+        "random_strength": 2.0866527711063737e-05,
+        "min_data_in_leaf": 30,
+        "rsm": 0.8059264473611898
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1995
+    },
+    {
+      "number": 3,
+      "value": 0.0192024623291038,
+      "params": {
+        "learning_rate": 0.0022158645374549917,
+        "depth": 6,
+        "l2_leaf_reg": 2.324672848950434,
+        "bagging_temperature": 0.45606998421703593,
+        "random_strength": 0.07108199592296872,
+        "min_data_in_leaf": 20,
+        "rsm": 0.7571172192068059
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 4,
+      "value": 0.01903280940091572,
+      "params": {
+        "learning_rate": 0.029341527565000736,
+        "depth": 4,
+        "l2_leaf_reg": 4.050837781329674,
+        "bagging_temperature": 0.17052412368729153,
+        "random_strength": 4.4721455524695026e-09,
+        "min_data_in_leaf": 95,
+        "rsm": 0.9828160165372797
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 327
+    },
+    {
+      "number": 5,
+      "value": 0.01885871841760947,
+      "params": {
+        "learning_rate": 0.10057690178153984,
+        "depth": 6,
+        "l2_leaf_reg": 1.252195428706039,
+        "bagging_temperature": 0.6842330265121569,
+        "random_strength": 2.5207219165367527e-05,
+        "min_data_in_leaf": 13,
+        "rsm": 0.7475884550556351
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 84
+    },
+    {
+      "number": 6,
+      "value": 0.021292927895600722,
+      "params": {
+        "learning_rate": 0.0012167028814593455,
+        "depth": 10,
+        "l2_leaf_reg": 1.8145961353490248,
+        "bagging_temperature": 0.662522284353982,
+        "random_strength": 1.3095158546031514e-06,
+        "min_data_in_leaf": 53,
+        "rsm": 0.7733551396716398
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 7,
+      "value": 0.019086623003486985,
+      "params": {
+        "learning_rate": 0.002870165242185818,
+        "depth": 10,
+        "l2_leaf_reg": 5.958443469672519,
+        "bagging_temperature": 0.9394989415641891,
+        "random_strength": 0.887714889465559,
+        "min_data_in_leaf": 60,
+        "rsm": 0.9609371175115584
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1908
+    },
+    {
+      "number": 8,
+      "value": 0.02066815897607213,
+      "params": {
+        "learning_rate": 0.0016565580440884786,
+        "depth": 5,
+        "l2_leaf_reg": 1.1097554561103098,
+        "bagging_temperature": 0.32533033076326434,
+        "random_strength": 7.705004503489676e-06,
+        "min_data_in_leaf": 28,
+        "rsm": 0.9143687545759647
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 9,
+      "value": 0.01912601589361146,
+      "params": {
+        "learning_rate": 0.0076510536667541975,
+        "depth": 5,
+        "l2_leaf_reg": 3.4889607451392215,
+        "bagging_temperature": 0.14092422497476265,
+        "random_strength": 0.10518887432316691,
+        "min_data_in_leaf": 8,
+        "rsm": 0.9934434683002586
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 817
+    },
+    {
+      "number": 10,
+      "value": 0.01922823182618125,
+      "params": {
+        "learning_rate": 0.2622575705697904,
+        "depth": 8,
+        "l2_leaf_reg": 9.322601292624803,
+        "bagging_temperature": 0.870493639774693,
+        "random_strength": 0.002517010485011529,
+        "min_data_in_leaf": 41,
+        "rsm": 0.6655230408582921
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 20
+    },
+    {
+      "number": 11,
+      "value": 0.019367402043381558,
+      "params": {
+        "learning_rate": 0.047786008020913116,
+        "depth": 4,
+        "l2_leaf_reg": 1.0159361094807864,
+        "bagging_temperature": 0.7573189490554153,
+        "random_strength": 1.1966160284426795e-09,
+        "min_data_in_leaf": 93,
+        "rsm": 0.8729865202129686
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 113
+    },
+    {
+      "number": 12,
+      "value": 0.018686651895893382,
+      "params": {
+        "learning_rate": 0.037534379374988144,
+        "depth": 7,
+        "l2_leaf_reg": 3.073264781462887,
+        "bagging_temperature": 0.3017997955170955,
+        "random_strength": 1.1032859080666937e-07,
+        "min_data_in_leaf": 70,
+        "rsm": 0.6760524991263408
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 156
+    },
+    {
+      "number": 13,
+      "value": 0.018860365618910028,
+      "params": {
+        "learning_rate": 0.07546078881249063,
+        "depth": 7,
+        "l2_leaf_reg": 1.4144937940786644,
+        "bagging_temperature": 0.38353742083608316,
+        "random_strength": 2.686917575186339e-07,
+        "min_data_in_leaf": 70,
+        "rsm": 0.6713996441331581
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 65
+    },
+    {
+      "number": 14,
+      "value": 0.018702312457645778,
+      "params": {
+        "learning_rate": 0.01878419260491097,
+        "depth": 7,
+        "l2_leaf_reg": 2.6297732237104503,
+        "bagging_temperature": 0.2799909752703046,
+        "random_strength": 0.0006796284328447435,
+        "min_data_in_leaf": 75,
+        "rsm": 0.6872374240962442
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 265
+    },
+    {
+      "number": 15,
+      "value": 0.01861077472081213,
+      "params": {
+        "learning_rate": 0.01510279367981594,
+        "depth": 8,
+        "l2_leaf_reg": 2.616892498948112,
+        "bagging_temperature": 0.21640665379976273,
+        "random_strength": 0.000787712908134416,
+        "min_data_in_leaf": 75,
+        "rsm": 0.6622227658331793
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 398
+    },
+    {
+      "number": 16,
+      "value": 0.018647607869649703,
+      "params": {
+        "learning_rate": 0.00900278677004818,
+        "depth": 8,
+        "l2_leaf_reg": 2.9670301648113364,
+        "bagging_temperature": 0.21295274617021004,
+        "random_strength": 0.0007829527311610232,
+        "min_data_in_leaf": 65,
+        "rsm": 0.56391216214132
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 573
+    },
+    {
+      "number": 17,
+      "value": 0.018817242416043645,
+      "params": {
+        "learning_rate": 0.00742611671808766,
+        "depth": 9,
+        "l2_leaf_reg": 1.6497727686520243,
+        "bagging_temperature": 0.006472319299915152,
+        "random_strength": 0.0009885949384542184,
+        "min_data_in_leaf": 56,
+        "rsm": 0.5091696414030774
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 668
+    },
+    {
+      "number": 18,
+      "value": 0.018771469046415856,
+      "params": {
+        "learning_rate": 0.013761364624907643,
+        "depth": 8,
+        "l2_leaf_reg": 4.259206200443209,
+        "bagging_temperature": 0.17464653896939075,
+        "random_strength": 0.011514717483640585,
+        "min_data_in_leaf": 82,
+        "rsm": 0.59100423109218
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 362
+    },
+    {
+      "number": 19,
+      "value": 0.018669250280778076,
+      "params": {
+        "learning_rate": 0.004795612481694091,
+        "depth": 9,
+        "l2_leaf_reg": 2.6981695225240108,
+        "bagging_temperature": 0.10005068723463804,
+        "random_strength": 0.000174195257675367,
+        "min_data_in_leaf": 44,
+        "rsm": 0.5820277679886149
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 946
+    },
+    {
+      "number": 20,
+      "value": 0.018865149142420618,
+      "params": {
+        "learning_rate": 0.017732235866522582,
+        "depth": 9,
+        "l2_leaf_reg": 7.485688984060575,
+        "bagging_temperature": 0.24426687378080805,
+        "random_strength": 0.018012062030051543,
+        "min_data_in_leaf": 68,
+        "rsm": 0.553730525143703
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 286
+    },
+    {
+      "number": 21,
+      "value": 0.01871165625678376,
+      "params": {
+        "learning_rate": 0.005015743657942336,
+        "depth": 9,
+        "l2_leaf_reg": 2.650082359213035,
+        "bagging_temperature": 0.06689069139780729,
+        "random_strength": 0.00011706453058738143,
+        "min_data_in_leaf": 43,
+        "rsm": 0.6093512155243465
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 960
+    },
+    {
+      "number": 22,
+      "value": 0.018644061259117443,
+      "params": {
+        "learning_rate": 0.005567869315749806,
+        "depth": 8,
+        "l2_leaf_reg": 3.3669610427017327,
+        "bagging_temperature": 0.08504264595371257,
+        "random_strength": 0.00019293190208677653,
+        "min_data_in_leaf": 44,
+        "rsm": 0.5875012443265185
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 899
+    },
+    {
+      "number": 23,
+      "value": 0.018635107487098197,
+      "params": {
+        "learning_rate": 0.01179033415429269,
+        "depth": 8,
+        "l2_leaf_reg": 3.670543730083657,
+        "bagging_temperature": 0.2164269731537341,
+        "random_strength": 0.0051808594836153105,
+        "min_data_in_leaf": 65,
+        "rsm": 0.6374168367210331
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 449
+    },
+    {
+      "number": 24,
+      "value": 0.018464980067137468,
+      "params": {
+        "learning_rate": 0.012758037180210544,
+        "depth": 8,
+        "l2_leaf_reg": 3.847811635133765,
+        "bagging_temperature": 0.4140684194606276,
+        "random_strength": 0.0033453865372889253,
+        "min_data_in_leaf": 80,
+        "rsm": 0.6333709751024439
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 457
+    },
+    {
+      "number": 25,
+      "value": 0.018675847592694916,
+      "params": {
+        "learning_rate": 0.02675560309665221,
+        "depth": 6,
+        "l2_leaf_reg": 4.352665551970659,
+        "bagging_temperature": 0.37784527550364666,
+        "random_strength": 0.006702170111684961,
+        "min_data_in_leaf": 86,
+        "rsm": 0.6378665241178725
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 284
+    },
+    {
+      "number": 26,
+      "value": 0.018723720100591992,
+      "params": {
+        "learning_rate": 0.012947300013890248,
+        "depth": 7,
+        "l2_leaf_reg": 2.108751755583576,
+        "bagging_temperature": 0.527883174493894,
+        "random_strength": 0.1736032135255412,
+        "min_data_in_leaf": 78,
+        "rsm": 0.714594038736916
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 421
+    },
+    {
+      "number": 27,
+      "value": 0.019372642053267494,
+      "params": {
+        "learning_rate": 0.022371415078052535,
+        "depth": 9,
+        "l2_leaf_reg": 3.669466738628358,
+        "bagging_temperature": 0.4396046955977772,
+        "random_strength": 1.3051282473584795,
+        "min_data_in_leaf": 93,
+        "rsm": 0.6342034506136967
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 314
+    },
+    {
+      "number": 28,
+      "value": 0.018674576371138906,
+      "params": {
+        "learning_rate": 0.01360112841800322,
+        "depth": 8,
+        "l2_leaf_reg": 6.7415418172592325,
+        "bagging_temperature": 0.3715568024268865,
+        "random_strength": 0.034976596366018346,
+        "min_data_in_leaf": 61,
+        "rsm": 0.7311224598779255
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 403
+    },
+    {
+      "number": 29,
+      "value": 0.01891400518949397,
+      "params": {
+        "learning_rate": 0.0605589677639054,
+        "depth": 10,
+        "l2_leaf_reg": 4.923670473799071,
+        "bagging_temperature": 0.5698365044634839,
+        "random_strength": 0.004158413680283755,
+        "min_data_in_leaf": 75,
+        "rsm": 0.7950826684348987
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 95
+    },
+    {
+      "number": 30,
+      "value": 0.018844694549642507,
+      "params": {
+        "learning_rate": 0.011692057547430048,
+        "depth": 7,
+        "l2_leaf_reg": 5.7645219862257315,
+        "bagging_temperature": 0.23443012729974677,
+        "random_strength": 2.1048170887015786e-06,
+        "min_data_in_leaf": 88,
+        "rsm": 0.6355641770826794
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 511
+    },
+    {
+      "number": 31,
+      "value": 0.018776249749194146,
+      "params": {
+        "learning_rate": 0.0051500398468010055,
+        "depth": 8,
+        "l2_leaf_reg": 3.468122276900787,
+        "bagging_temperature": 0.12652268937123556,
+        "random_strength": 0.00017866624078275085,
+        "min_data_in_leaf": 49,
+        "rsm": 0.5313075286758979
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 894
+    },
+    {
+      "number": 32,
+      "value": 0.018667956768487894,
+      "params": {
+        "learning_rate": 0.003829659248657847,
+        "depth": 8,
+        "l2_leaf_reg": 4.776029878227109,
+        "bagging_temperature": 0.05914330193485001,
+        "random_strength": 0.0005246084420931209,
+        "min_data_in_leaf": 34,
+        "rsm": 0.7000419349596382
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1452
+    },
+    {
+      "number": 33,
+      "value": 0.018630175229593256,
+      "params": {
+        "learning_rate": 0.008327211713968335,
+        "depth": 8,
+        "l2_leaf_reg": 2.3303621931038156,
+        "bagging_temperature": 0.19694568573151497,
+        "random_strength": 2.0318585456663266e-05,
+        "min_data_in_leaf": 61,
+        "rsm": 0.6188029173775728
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 658
+    },
+    {
+      "number": 34,
+      "value": 0.018702547265880946,
+      "params": {
+        "learning_rate": 0.009076936060167802,
+        "depth": 9,
+        "l2_leaf_reg": 2.3296510773793755,
+        "bagging_temperature": 0.332466963507144,
+        "random_strength": 3.738038694168598e-05,
+        "min_data_in_leaf": 79,
+        "rsm": 0.6171862905200731
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 593
+    },
+    {
+      "number": 35,
+      "value": 0.018916724027221627,
+      "params": {
+        "learning_rate": 0.033324670867022614,
+        "depth": 8,
+        "l2_leaf_reg": 1.7036720807350432,
+        "bagging_temperature": 0.47151167143652756,
+        "random_strength": 0.003135453423008862,
+        "min_data_in_leaf": 61,
+        "rsm": 0.6501013166957459
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 193
+    },
+    {
+      "number": 36,
+      "value": 0.018992793246421495,
+      "params": {
+        "learning_rate": 0.010042353991171938,
+        "depth": 6,
+        "l2_leaf_reg": 2.1474386431413555,
+        "bagging_temperature": 0.21547663965534686,
+        "random_strength": 1.4535879848951094e-05,
+        "min_data_in_leaf": 73,
+        "rsm": 0.7125582234501369
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 646
+    },
+    {
+      "number": 37,
+      "value": 0.01870417060775369,
+      "params": {
+        "learning_rate": 0.02036158323295162,
+        "depth": 7,
+        "l2_leaf_reg": 3.8993109769259977,
+        "bagging_temperature": 0.41292513525646135,
+        "random_strength": 3.579910279222793e-06,
+        "min_data_in_leaf": 100,
+        "rsm": 0.6135614424610075
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 354
+    },
+    {
+      "number": 38,
+      "value": 0.01877751842989883,
+      "params": {
+        "learning_rate": 0.0030732178484727136,
+        "depth": 9,
+        "l2_leaf_reg": 2.991524760841891,
+        "bagging_temperature": 0.1771425935607721,
+        "random_strength": 4.057914409122548e-05,
+        "min_data_in_leaf": 65,
+        "rsm": 0.5500326199245419
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1494
+    },
+    {
+      "number": 39,
+      "value": 0.01896593451291568,
+      "params": {
+        "learning_rate": 0.0062632046984807625,
+        "depth": 7,
+        "l2_leaf_reg": 2.436775168267792,
+        "bagging_temperature": 0.28132448368584495,
+        "random_strength": 0.35156354869783213,
+        "min_data_in_leaf": 53,
+        "rsm": 0.7666271888189463
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 862
+    },
+    {
+      "number": 40,
+      "value": 0.021253247339255286,
+      "params": {
+        "learning_rate": 0.0019513262194606987,
+        "depth": 8,
+        "l2_leaf_reg": 1.9369320803759174,
+        "bagging_temperature": 0.6630105916636256,
+        "random_strength": 8.474550702992646,
+        "min_data_in_leaf": 83,
+        "rsm": 0.7362019640062744
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 41,
+      "value": 0.01860932585255225,
+      "params": {
+        "learning_rate": 0.005726409709222184,
+        "depth": 8,
+        "l2_leaf_reg": 3.266306701239385,
+        "bagging_temperature": 0.05886468354557836,
+        "random_strength": 0.00037414559352133726,
+        "min_data_in_leaf": 57,
+        "rsm": 0.5894722369144001
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1045
+    },
+    {
+      "number": 42,
+      "value": 0.0187107573742594,
+      "params": {
+        "learning_rate": 0.014430227783312289,
+        "depth": 8,
+        "l2_leaf_reg": 3.211796127285115,
+        "bagging_temperature": 0.02787769600462492,
+        "random_strength": 0.03975754680583467,
+        "min_data_in_leaf": 55,
+        "rsm": 0.5722456729436253
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 339
+    },
+    {
+      "number": 43,
+      "value": 0.018674073682250384,
+      "params": {
+        "learning_rate": 0.0073064996698894566,
+        "depth": 8,
+        "l2_leaf_reg": 3.9191668967315834,
+        "bagging_temperature": 0.13629151638036507,
+        "random_strength": 0.001503562148834961,
+        "min_data_in_leaf": 59,
+        "rsm": 0.6478022701054538
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 794
+    },
+    {
+      "number": 44,
+      "value": 0.0188370925027574,
+      "params": {
+        "learning_rate": 0.004156366238720112,
+        "depth": 9,
+        "l2_leaf_reg": 2.762902036142685,
+        "bagging_temperature": 0.1868137472916464,
+        "random_strength": 7.100376731902999e-07,
+        "min_data_in_leaf": 49,
+        "rsm": 0.5051849342210231
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1156
+    },
+    {
+      "number": 45,
+      "value": 0.01863985781969369,
+      "params": {
+        "learning_rate": 0.0247347506534639,
+        "depth": 8,
+        "l2_leaf_reg": 2.4055734660918215,
+        "bagging_temperature": 0.27203772646325863,
+        "random_strength": 9.096422666868052e-06,
+        "min_data_in_leaf": 66,
+        "rsm": 0.5984709366798613
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 209
+    },
+    {
+      "number": 46,
+      "value": 0.018504202941736787,
+      "params": {
+        "learning_rate": 0.04059339191114969,
+        "depth": 7,
+        "l2_leaf_reg": 4.500557702146729,
+        "bagging_temperature": 0.3322633436992535,
+        "random_strength": 5.245584399138496e-05,
+        "min_data_in_leaf": 71,
+        "rsm": 0.85600570456747
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 140
+    },
+    {
+      "number": 47,
+      "value": 0.019069734085776825,
+      "params": {
+        "learning_rate": 0.04668821909372116,
+        "depth": 6,
+        "l2_leaf_reg": 4.475145559581891,
+        "bagging_temperature": 0.32711406081457606,
+        "random_strength": 5.7668132535464534e-05,
+        "min_data_in_leaf": 89,
+        "rsm": 0.8711640681706166
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 132
+    },
+    {
+      "number": 48,
+      "value": 0.018805004784530382,
+      "params": {
+        "learning_rate": 0.10571779705844073,
+        "depth": 7,
+        "l2_leaf_reg": 5.382504570518875,
+        "bagging_temperature": 0.34376227145376714,
+        "random_strength": 0.0002755769607472427,
+        "min_data_in_leaf": 72,
+        "rsm": 0.8405398445225312
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 47
+    },
+    {
+      "number": 49,
+      "value": 0.02159088250448605,
+      "params": {
+        "learning_rate": 0.0012078231078866816,
+        "depth": 7,
+        "l2_leaf_reg": 1.5049868953422099,
+        "bagging_temperature": 0.5003127970379011,
+        "random_strength": 1.9020980868378e-05,
+        "min_data_in_leaf": 79,
+        "rsm": 0.931356066016142
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    }
+  ],
+  "humidity": [
+    {
+      "number": 0,
+      "value": 0.022815892034570337,
+      "params": {
+        "learning_rate": 0.008468008575248327,
+        "depth": 10,
+        "l2_leaf_reg": 5.395030966670228,
+        "bagging_temperature": 0.5986584841970366,
+        "random_strength": 3.63233925694314e-08,
+        "min_data_in_leaf": 16,
+        "rsm": 0.5290418060840998
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 880
+    },
+    {
+      "number": 1,
+      "value": 0.02351956232725571,
+      "params": {
+        "learning_rate": 0.13983740016490973,
+        "depth": 8,
+        "l2_leaf_reg": 5.105903209394756,
+        "bagging_temperature": 0.020584494295802447,
+        "random_strength": 5.0014798288569295,
+        "min_data_in_leaf": 84,
+        "rsm": 0.6061695553391381
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 122
+    },
+    {
+      "number": 2,
+      "value": 0.02372986187044485,
+      "params": {
+        "learning_rate": 0.002820996133514492,
+        "depth": 5,
+        "l2_leaf_reg": 2.0148477884158655,
+        "bagging_temperature": 0.5247564316322378,
+        "random_strength": 2.0866527711063737e-05,
+        "min_data_in_leaf": 30,
+        "rsm": 0.8059264473611898
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 3,
+      "value": 0.0239692362140479,
+      "params": {
+        "learning_rate": 0.0022158645374549917,
+        "depth": 6,
+        "l2_leaf_reg": 2.324672848950434,
+        "bagging_temperature": 0.45606998421703593,
+        "random_strength": 0.07108199592296872,
+        "min_data_in_leaf": 20,
+        "rsm": 0.7571172192068059
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 4,
+      "value": 0.023268690097098223,
+      "params": {
+        "learning_rate": 0.029341527565000736,
+        "depth": 4,
+        "l2_leaf_reg": 4.050837781329674,
+        "bagging_temperature": 0.17052412368729153,
+        "random_strength": 4.4721455524695026e-09,
+        "min_data_in_leaf": 95,
+        "rsm": 0.9828160165372797
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 352
+    },
+    {
+      "number": 5,
+      "value": 0.022541722122083573,
+      "params": {
+        "learning_rate": 0.10057690178153984,
+        "depth": 6,
+        "l2_leaf_reg": 1.252195428706039,
+        "bagging_temperature": 0.6842330265121569,
+        "random_strength": 2.5207219165367527e-05,
+        "min_data_in_leaf": 13,
+        "rsm": 0.7475884550556351
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 110
+    },
+    {
+      "number": 6,
+      "value": 0.02480742265263767,
+      "params": {
+        "learning_rate": 0.0012167028814593455,
+        "depth": 10,
+        "l2_leaf_reg": 1.8145961353490248,
+        "bagging_temperature": 0.662522284353982,
+        "random_strength": 1.3095158546031514e-06,
+        "min_data_in_leaf": 53,
+        "rsm": 0.7733551396716398
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 7,
+      "value": 0.023198471346068273,
+      "params": {
+        "learning_rate": 0.002870165242185818,
+        "depth": 10,
+        "l2_leaf_reg": 5.958443469672519,
+        "bagging_temperature": 0.9394989415641891,
+        "random_strength": 0.887714889465559,
+        "min_data_in_leaf": 60,
+        "rsm": 0.9609371175115584
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 8,
+      "value": 0.02451915534572263,
+      "params": {
+        "learning_rate": 0.0016565580440884786,
+        "depth": 5,
+        "l2_leaf_reg": 1.1097554561103098,
+        "bagging_temperature": 0.32533033076326434,
+        "random_strength": 7.705004503489676e-06,
+        "min_data_in_leaf": 28,
+        "rsm": 0.9143687545759647
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 9,
+      "value": 0.023355632023445063,
+      "params": {
+        "learning_rate": 0.0076510536667541975,
+        "depth": 5,
+        "l2_leaf_reg": 3.4889607451392215,
+        "bagging_temperature": 0.14092422497476265,
+        "random_strength": 0.10518887432316691,
+        "min_data_in_leaf": 8,
+        "rsm": 0.9934434683002586
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 989
+    },
+    {
+      "number": 10,
+      "value": 0.023224793884180625,
+      "params": {
+        "learning_rate": 0.2622575705697904,
+        "depth": 8,
+        "l2_leaf_reg": 9.322601292624803,
+        "bagging_temperature": 0.870493639774693,
+        "random_strength": 0.002517010485011529,
+        "min_data_in_leaf": 41,
+        "rsm": 0.6655230408582921
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 21
+    },
+    {
+      "number": 11,
+      "value": 0.02307044809205403,
+      "params": {
+        "learning_rate": 0.03804813682808823,
+        "depth": 7,
+        "l2_leaf_reg": 1.0159361094807864,
+        "bagging_temperature": 0.7183803821417525,
+        "random_strength": 2.579552027042681e-08,
+        "min_data_in_leaf": 3,
+        "rsm": 0.5300426557062143
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 340
+    },
+    {
+      "number": 12,
+      "value": 0.022657379715516023,
+      "params": {
+        "learning_rate": 0.010526263818056844,
+        "depth": 8,
+        "l2_leaf_reg": 7.907596037292657,
+        "bagging_temperature": 0.6891540508347536,
+        "random_strength": 1.594338975731387e-07,
+        "min_data_in_leaf": 15,
+        "rsm": 0.6526578494751444
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 699
+    },
+    {
+      "number": 13,
+      "value": 0.02340330566186226,
+      "params": {
+        "learning_rate": 0.0817064248321421,
+        "depth": 8,
+        "l2_leaf_reg": 8.335169298867939,
+        "bagging_temperature": 0.7993206083919846,
+        "random_strength": 4.422744204231994e-07,
+        "min_data_in_leaf": 1,
+        "rsm": 0.6713996441331581
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 113
+    },
+    {
+      "number": 14,
+      "value": 0.02293497716062069,
+      "params": {
+        "learning_rate": 0.009404830300273321,
+        "depth": 7,
+        "l2_leaf_reg": 1.3396299362352522,
+        "bagging_temperature": 0.41692460832750056,
+        "random_strength": 0.0006796284328447435,
+        "min_data_in_leaf": 67,
+        "rsm": 0.8441147559750997
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 726
+    },
+    {
+      "number": 15,
+      "value": 0.023124094707855838,
+      "params": {
+        "learning_rate": 0.05754192449233867,
+        "depth": 9,
+        "l2_leaf_reg": 2.707502034517522,
+        "bagging_temperature": 0.7441424339796774,
+        "random_strength": 1.093613802892417e-09,
+        "min_data_in_leaf": 40,
+        "rsm": 0.6759836507426809
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 145
+    },
+    {
+      "number": 16,
+      "value": 0.02337158800093449,
+      "params": {
+        "learning_rate": 0.019109210883947878,
+        "depth": 6,
+        "l2_leaf_reg": 1.3873441502909074,
+        "bagging_temperature": 0.9730211309408185,
+        "random_strength": 0.0003366719317296649,
+        "min_data_in_leaf": 17,
+        "rsm": 0.7058584138076075
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 425
+    },
+    {
+      "number": 17,
+      "value": 0.023361610754156274,
+      "params": {
+        "learning_rate": 0.014960270248468454,
+        "depth": 6,
+        "l2_leaf_reg": 7.224971824139949,
+        "bagging_temperature": 0.6092599562105125,
+        "random_strength": 3.438024352260616e-07,
+        "min_data_in_leaf": 34,
+        "rsm": 0.6097558969691533
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 561
+    },
+    {
+      "number": 18,
+      "value": 0.024494725712580892,
+      "params": {
+        "learning_rate": 0.2556307506597119,
+        "depth": 9,
+        "l2_leaf_reg": 3.924743087987293,
+        "bagging_temperature": 0.818542005643421,
+        "random_strength": 4.157853516636387e-05,
+        "min_data_in_leaf": 73,
+        "rsm": 0.8613982886297833
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 16
+    },
+    {
+      "number": 19,
+      "value": 0.022932709145269257,
+      "params": {
+        "learning_rate": 0.004826181842089292,
+        "depth": 7,
+        "l2_leaf_reg": 2.7934766276592815,
+        "bagging_temperature": 0.35622879922343176,
+        "random_strength": 0.007883957094314754,
+        "min_data_in_leaf": 46,
+        "rsm": 0.6114256230451962
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1490
+    },
+    {
+      "number": 20,
+      "value": 0.023270842623545052,
+      "params": {
+        "learning_rate": 0.06750874297786051,
+        "depth": 9,
+        "l2_leaf_reg": 1.6335795017615815,
+        "bagging_temperature": 0.5335533571047838,
+        "random_strength": 3.94422668455858e-06,
+        "min_data_in_leaf": 12,
+        "rsm": 0.7223252055700561
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 105
+    },
+    {
+      "number": 21,
+      "value": 0.023114334312664457,
+      "params": {
+        "learning_rate": 0.005514201969664969,
+        "depth": 10,
+        "l2_leaf_reg": 5.610347002293498,
+        "bagging_temperature": 0.6282271007781532,
+        "random_strength": 1.0535278027224805e-07,
+        "min_data_in_leaf": 23,
+        "rsm": 0.5065096690708918
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1026
+    },
+    {
+      "number": 22,
+      "value": 0.0230484257830623,
+      "params": {
+        "learning_rate": 0.013357396342804218,
+        "depth": 8,
+        "l2_leaf_reg": 6.881596852584074,
+        "bagging_temperature": 0.6326303927623182,
+        "random_strength": 2.2216008269854322e-08,
+        "min_data_in_leaf": 11,
+        "rsm": 0.542692684485182
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 582
+    },
+    {
+      "number": 23,
+      "value": 0.022645427452662334,
+      "params": {
+        "learning_rate": 0.019173281873963513,
+        "depth": 9,
+        "l2_leaf_reg": 4.896962863472407,
+        "bagging_temperature": 0.5571236192907946,
+        "random_strength": 8.069748601132467e-08,
+        "min_data_in_leaf": 20,
+        "rsm": 0.5687417747417614
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 419
+    },
+    {
+      "number": 24,
+      "value": 0.022941637337310774,
+      "params": {
+        "learning_rate": 0.02240628340240367,
+        "depth": 9,
+        "l2_leaf_reg": 4.537458442969833,
+        "bagging_temperature": 0.742046128322685,
+        "random_strength": 9.493054311274801e-05,
+        "min_data_in_leaf": 27,
+        "rsm": 0.5768377364696078
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 398
+    },
+    {
+      "number": 25,
+      "value": 0.023042458600169343,
+      "params": {
+        "learning_rate": 0.13313745643020553,
+        "depth": 8,
+        "l2_leaf_reg": 7.561831688323986,
+        "bagging_temperature": 0.5267464562603811,
+        "random_strength": 7.574236015849816e-07,
+        "min_data_in_leaf": 35,
+        "rsm": 0.638382566902357
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 38
+    },
+    {
+      "number": 26,
+      "value": 0.02286787098495739,
+      "params": {
+        "learning_rate": 0.034825747082096466,
+        "depth": 6,
+        "l2_leaf_reg": 6.476231074669676,
+        "bagging_temperature": 0.6899277216401558,
+        "random_strength": 5.0866416549714384e-09,
+        "min_data_in_leaf": 9,
+        "rsm": 0.7108808774604775
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 315
+    },
+    {
+      "number": 27,
+      "value": 0.023053777177806534,
+      "params": {
+        "learning_rate": 0.1502053557778687,
+        "depth": 7,
+        "l2_leaf_reg": 3.2574234927190426,
+        "bagging_temperature": 0.8166692232407835,
+        "random_strength": 3.6646233307514827e-06,
+        "min_data_in_leaf": 21,
+        "rsm": 0.5619409577128177
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 68
+    },
+    {
+      "number": 28,
+      "value": 0.02334071853629988,
+      "params": {
+        "learning_rate": 0.004554549238709499,
+        "depth": 4,
+        "l2_leaf_reg": 9.284387344858937,
+        "bagging_temperature": 0.9022119110834821,
+        "random_strength": 1.0830357611685866e-05,
+        "min_data_in_leaf": 51,
+        "rsm": 0.8115315172092165
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1829
+    },
+    {
+      "number": 29,
+      "value": 0.022819104956376166,
+      "params": {
+        "learning_rate": 0.010554233925836067,
+        "depth": 9,
+        "l2_leaf_reg": 4.863715667630495,
+        "bagging_temperature": 0.5851629120853459,
+        "random_strength": 1.0387962333324625e-07,
+        "min_data_in_leaf": 16,
+        "rsm": 0.6461228407029498
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 776
+    },
+    {
+      "number": 30,
+      "value": 0.02335027200973674,
+      "params": {
+        "learning_rate": 0.049971960384708816,
+        "depth": 7,
+        "l2_leaf_reg": 2.363722337016277,
+        "bagging_temperature": 0.3880084473437882,
+        "random_strength": 1.295163057623208e-07,
+        "min_data_in_leaf": 1,
+        "rsm": 0.7349451997530253
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 197
+    },
+    {
+      "number": 31,
+      "value": 0.02305112728059694,
+      "params": {
+        "learning_rate": 0.007015491234371384,
+        "depth": 10,
+        "l2_leaf_reg": 5.244197425036691,
+        "bagging_temperature": 0.5746709648227923,
+        "random_strength": 1.4962121513250817e-08,
+        "min_data_in_leaf": 17,
+        "rsm": 0.5833811077185447
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1033
+    },
+    {
+      "number": 32,
+      "value": 0.023285414216948203,
+      "params": {
+        "learning_rate": 0.09934272244808726,
+        "depth": 8,
+        "l2_leaf_reg": 4.378797377494691,
+        "bagging_temperature": 0.48462465474847305,
+        "random_strength": 5.87252649503089e-08,
+        "min_data_in_leaf": 25,
+        "rsm": 0.5075318925448904
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 113
+    },
+    {
+      "number": 33,
+      "value": 0.02290230697879397,
+      "params": {
+        "learning_rate": 0.0032616181115589934,
+        "depth": 9,
+        "l2_leaf_reg": 6.121378860795438,
+        "bagging_temperature": 0.4541616355533381,
+        "random_strength": 1.4704961596367716e-09,
+        "min_data_in_leaf": 33,
+        "rsm": 0.5516413658925876
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 34,
+      "value": 0.023440140027692635,
+      "params": {
+        "learning_rate": 0.026583823460732427,
+        "depth": 10,
+        "l2_leaf_reg": 7.8635225229264645,
+        "bagging_temperature": 0.3036218288821091,
+        "random_strength": 6.2410214117088785e-09,
+        "min_data_in_leaf": 6,
+        "rsm": 0.5949555979582611
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 209
+    },
+    {
+      "number": 35,
+      "value": 0.023241298924008016,
+      "params": {
+        "learning_rate": 0.0120611791762208,
+        "depth": 5,
+        "l2_leaf_reg": 3.823830943509249,
+        "bagging_temperature": 0.6879578164532564,
+        "random_strength": 7.167814194332481e-07,
+        "min_data_in_leaf": 14,
+        "rsm": 0.7716512029814004
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 691
+    },
+    {
+      "number": 36,
+      "value": 0.022792221334523785,
+      "params": {
+        "learning_rate": 0.015619491465741191,
+        "depth": 10,
+        "l2_leaf_reg": 4.880919897626161,
+        "bagging_temperature": 0.5515939472585801,
+        "random_strength": 1.5278783733933844e-06,
+        "min_data_in_leaf": 87,
+        "rsm": 0.6305221789473106
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 524
+    },
+    {
+      "number": 37,
+      "value": 0.022857548459883203,
+      "params": {
+        "learning_rate": 0.01821076152583192,
+        "depth": 9,
+        "l2_leaf_reg": 5.179356675953916,
+        "bagging_temperature": 0.2499656230833346,
+        "random_strength": 3.706955232836351e-05,
+        "min_data_in_leaf": 100,
+        "rsm": 0.6339022216157632
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 431
+    },
+    {
+      "number": 38,
+      "value": 0.023500709792326418,
+      "params": {
+        "learning_rate": 0.04401057008495861,
+        "depth": 10,
+        "l2_leaf_reg": 2.8136107471852,
+        "bagging_temperature": 0.555195978155258,
+        "random_strength": 2.3326199699492828e-06,
+        "min_data_in_leaf": 82,
+        "rsm": 0.8002909474624986
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 121
+    },
+    {
+      "number": 39,
+      "value": 0.023216560395837107,
+      "params": {
+        "learning_rate": 0.023039567492110013,
+        "depth": 10,
+        "l2_leaf_reg": 1.9641955448080293,
+        "bagging_temperature": 0.47070196510079665,
+        "random_strength": 0.00022655298191354522,
+        "min_data_in_leaf": 76,
+        "rsm": 0.7019781117148058
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 250
+    },
+    {
+      "number": 40,
+      "value": 0.022774327476235368,
+      "params": {
+        "learning_rate": 0.006283501482240952,
+        "depth": 9,
+        "l2_leaf_reg": 2.2524610115451944,
+        "bagging_temperature": 0.6630105916636256,
+        "random_strength": 2.7236139178611513e-07,
+        "min_data_in_leaf": 61,
+        "rsm": 0.7512669103365401
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1171
+    },
+    {
+      "number": 41,
+      "value": 0.022713692574754984,
+      "params": {
+        "learning_rate": 0.00635835677650601,
+        "depth": 9,
+        "l2_leaf_reg": 2.4173607991918162,
+        "bagging_temperature": 0.768860463915461,
+        "random_strength": 2.13924683333375e-07,
+        "min_data_in_leaf": 91,
+        "rsm": 0.7488314188058689
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1197
+    },
+    {
+      "number": 42,
+      "value": 0.02286103834518681,
+      "params": {
+        "learning_rate": 0.003473474605538743,
+        "depth": 9,
+        "l2_leaf_reg": 2.2296213369051037,
+        "bagging_temperature": 0.7620774672481757,
+        "random_strength": 1.762357165198341e-07,
+        "min_data_in_leaf": 57,
+        "rsm": 0.7546293324413771
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1997
+    },
+    {
+      "number": 43,
+      "value": 0.023797107272188398,
+      "params": {
+        "learning_rate": 0.00197657855562812,
+        "depth": 8,
+        "l2_leaf_reg": 1.5204177898935023,
+        "bagging_temperature": 0.6646319021685908,
+        "random_strength": 3.0626765871564876e-08,
+        "min_data_in_leaf": 64,
+        "rsm": 0.7871138483766401
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 44,
+      "value": 0.02330165889951849,
+      "params": {
+        "learning_rate": 0.006422314976943035,
+        "depth": 9,
+        "l2_leaf_reg": 1.194251756491933,
+        "bagging_temperature": 0.87117752664212,
+        "random_strength": 9.691908951319375,
+        "min_data_in_leaf": 90,
+        "rsm": 0.8315266865783553
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1978
+    },
+    {
+      "number": 45,
+      "value": 0.022527674504004357,
+      "params": {
+        "learning_rate": 0.008648828378800204,
+        "depth": 8,
+        "l2_leaf_reg": 1.7724554369785153,
+        "bagging_temperature": 0.7997150432496581,
+        "random_strength": 1.2099810816115689e-05,
+        "min_data_in_leaf": 45,
+        "rsm": 0.6884245108472264
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 923
+    },
+    {
+      "number": 46,
+      "value": 0.022771774766523152,
+      "params": {
+        "learning_rate": 0.00953851715364561,
+        "depth": 7,
+        "l2_leaf_reg": 1.7893076870620885,
+        "bagging_temperature": 0.7880558459134452,
+        "random_strength": 1.6905954159860848e-05,
+        "min_data_in_leaf": 40,
+        "rsm": 0.6786439172835294
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1023
+    },
+    {
+      "number": 47,
+      "value": 0.022866199440683143,
+      "params": {
+        "learning_rate": 0.003803622004102341,
+        "depth": 8,
+        "l2_leaf_reg": 1.2679909963058376,
+        "bagging_temperature": 0.8550690229262308,
+        "random_strength": 8.0915155065112e-06,
+        "min_data_in_leaf": 29,
+        "rsm": 0.6892196939558807
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 48,
+      "value": 0.024865844463252577,
+      "params": {
+        "learning_rate": 0.0012495429211936042,
+        "depth": 8,
+        "l2_leaf_reg": 1.6250692225028411,
+        "bagging_temperature": 0.9984266657243013,
+        "random_strength": 0.0020001053341315617,
+        "min_data_in_leaf": 44,
+        "rsm": 0.8831828451601752
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    },
+    {
+      "number": 49,
+      "value": 0.02384489054707366,
+      "params": {
+        "learning_rate": 0.0024663761239505032,
+        "depth": 6,
+        "l2_leaf_reg": 1.0632866709570563,
+        "bagging_temperature": 0.0014500117927533918,
+        "random_strength": 0.00012443866933411305,
+        "min_data_in_leaf": 20,
+        "rsm": 0.7279000710360561
+      },
+      "state": "TrialState.COMPLETE",
+      "best_iteration": 1999
+    }
+  ]
+}

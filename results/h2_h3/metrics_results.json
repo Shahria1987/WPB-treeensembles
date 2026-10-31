@@ -1,0 +1,762 @@
+[
+  {
+    "tag": "catboost_tuned_h2_seed42",
+    "model": "CatBoost-Tuned",
+    "horizon": 2,
+    "seed": 42,
+    "window": 12,
+    "n_train": 11609,
+    "n_val": 437,
+    "n_test_temporal": 1349,
+    "n_test_spatial": 355,
+    "best_iter_temp": 351,
+    "best_iter_hum": 1039,
+    "best_val_MAE_temp_norm": 0.01977620073108418,
+    "best_val_MAE_hum_norm": 0.024097042206942153,
+    "train_time_min": 2.81,
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0214,
+          "RMSE": 0.0275,
+          "R2": 0.8717,
+          "MAPE": 3.8435
+        },
+        "rescaled": {
+          "MAE": 0.7965,
+          "RMSE": 1.0233,
+          "R2": 0.8717,
+          "MAPE": 2.617
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0245,
+          "RMSE": 0.0322,
+          "R2": 0.7683,
+          "MAPE": 4.1172
+        },
+        "rescaled": {
+          "MAE": 2.0533,
+          "RMSE": 2.6978,
+          "R2": 0.7683,
+          "MAPE": 2.8038
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0238,
+          "RMSE": 0.0306,
+          "R2": 0.8495,
+          "MAPE": 4.302
+        },
+        "rescaled": {
+          "MAE": 0.8885,
+          "RMSE": 1.1408,
+          "R2": 0.8495,
+          "MAPE": 2.9214
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.026,
+          "RMSE": 0.0338,
+          "R2": 0.6872,
+          "MAPE": 4.3519
+        },
+        "rescaled": {
+          "MAE": 2.1749,
+          "RMSE": 2.8322,
+          "R2": 0.6872,
+          "MAPE": 2.9688
+        }
+      }
+    }
+  },
+  {
+    "tag": "catboost_tuned_h2_seed7",
+    "model": "CatBoost-Tuned",
+    "horizon": 2,
+    "seed": 7,
+    "window": 12,
+    "n_train": 11609,
+    "n_val": 437,
+    "n_test_temporal": 1349,
+    "n_test_spatial": 355,
+    "best_iter_temp": 320,
+    "best_iter_hum": 1452,
+    "best_val_MAE_temp_norm": 0.020134731752445588,
+    "best_val_MAE_hum_norm": 0.024214196771443524,
+    "train_time_min": 3.54,
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0214,
+          "RMSE": 0.0275,
+          "R2": 0.8709,
+          "MAPE": 3.8586
+        },
+        "rescaled": {
+          "MAE": 0.7992,
+          "RMSE": 1.0265,
+          "R2": 0.8709,
+          "MAPE": 2.6263
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0243,
+          "RMSE": 0.0319,
+          "R2": 0.7726,
+          "MAPE": 4.0796
+        },
+        "rescaled": {
+          "MAE": 2.0363,
+          "RMSE": 2.6724,
+          "R2": 0.7726,
+          "MAPE": 2.7791
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.024,
+          "RMSE": 0.0309,
+          "R2": 0.8466,
+          "MAPE": 4.3329
+        },
+        "rescaled": {
+          "MAE": 0.8927,
+          "RMSE": 1.1515,
+          "R2": 0.8466,
+          "MAPE": 2.9389
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0259,
+          "RMSE": 0.0336,
+          "R2": 0.6906,
+          "MAPE": 4.3419
+        },
+        "rescaled": {
+          "MAE": 2.1688,
+          "RMSE": 2.8165,
+          "R2": 0.6906,
+          "MAPE": 2.9616
+        }
+      }
+    }
+  },
+  {
+    "tag": "catboost_tuned_h2_seed123",
+    "model": "CatBoost-Tuned",
+    "horizon": 2,
+    "seed": 123,
+    "window": 12,
+    "n_train": 11609,
+    "n_val": 437,
+    "n_test_temporal": 1349,
+    "n_test_spatial": 355,
+    "best_iter_temp": 361,
+    "best_iter_hum": 1308,
+    "best_val_MAE_temp_norm": 0.01969323337218394,
+    "best_val_MAE_hum_norm": 0.02410580148161509,
+    "train_time_min": 3.27,
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0214,
+          "RMSE": 0.0275,
+          "R2": 0.8714,
+          "MAPE": 3.854
+        },
+        "rescaled": {
+          "MAE": 0.7986,
+          "RMSE": 1.0247,
+          "R2": 0.8714,
+          "MAPE": 2.6239
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0245,
+          "RMSE": 0.0321,
+          "R2": 0.7693,
+          "MAPE": 4.1088
+        },
+        "rescaled": {
+          "MAE": 2.0518,
+          "RMSE": 2.6917,
+          "R2": 0.7693,
+          "MAPE": 2.7994
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.024,
+          "RMSE": 0.0307,
+          "R2": 0.8484,
+          "MAPE": 4.3342
+        },
+        "rescaled": {
+          "MAE": 0.894,
+          "RMSE": 1.1449,
+          "R2": 0.8484,
+          "MAPE": 2.9416
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0258,
+          "RMSE": 0.0334,
+          "R2": 0.6944,
+          "MAPE": 4.3165
+        },
+        "rescaled": {
+          "MAE": 2.1577,
+          "RMSE": 2.7993,
+          "R2": 0.6944,
+          "MAPE": 2.9449
+        }
+      }
+    }
+  },
+  {
+    "tag": "catboost_tuned_h2_seed2024",
+    "model": "CatBoost-Tuned",
+    "horizon": 2,
+    "seed": 2024,
+    "window": 12,
+    "n_train": 11609,
+    "n_val": 437,
+    "n_test_temporal": 1349,
+    "n_test_spatial": 355,
+    "best_iter_temp": 381,
+    "best_iter_hum": 1083,
+    "best_val_MAE_temp_norm": 0.01979403373607477,
+    "best_val_MAE_hum_norm": 0.024342083493052946,
+    "train_time_min": 3.08,
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0214,
+          "RMSE": 0.0276,
+          "R2": 0.8708,
+          "MAPE": 3.8476
+        },
+        "rescaled": {
+          "MAE": 0.7976,
+          "RMSE": 1.0269,
+          "R2": 0.8708,
+          "MAPE": 2.6202
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0246,
+          "RMSE": 0.0324,
+          "R2": 0.7662,
+          "MAPE": 4.1237
+        },
+        "rescaled": {
+          "MAE": 2.0563,
+          "RMSE": 2.7102,
+          "R2": 0.7662,
+          "MAPE": 2.8083
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0239,
+          "RMSE": 0.0306,
+          "R2": 0.8495,
+          "MAPE": 4.3033
+        },
+        "rescaled": {
+          "MAE": 0.8892,
+          "RMSE": 1.1407,
+          "R2": 0.8495,
+          "MAPE": 2.923
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.026,
+          "RMSE": 0.0339,
+          "R2": 0.6863,
+          "MAPE": 4.368
+        },
+        "rescaled": {
+          "MAE": 2.1802,
+          "RMSE": 2.8363,
+          "R2": 0.6863,
+          "MAPE": 2.9788
+        }
+      }
+    }
+  },
+  {
+    "tag": "catboost_tuned_h2_seed999",
+    "model": "CatBoost-Tuned",
+    "horizon": 2,
+    "seed": 999,
+    "window": 12,
+    "n_train": 11609,
+    "n_val": 437,
+    "n_test_temporal": 1349,
+    "n_test_spatial": 355,
+    "best_iter_temp": 346,
+    "best_iter_hum": 1156,
+    "best_val_MAE_temp_norm": 0.019702002029091465,
+    "best_val_MAE_hum_norm": 0.024079238501821084,
+    "train_time_min": 3.26,
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0216,
+          "RMSE": 0.0277,
+          "R2": 0.8691,
+          "MAPE": 3.8796
+        },
+        "rescaled": {
+          "MAE": 0.8045,
+          "RMSE": 1.0335,
+          "R2": 0.8691,
+          "MAPE": 2.6419
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0245,
+          "RMSE": 0.0322,
+          "R2": 0.7685,
+          "MAPE": 4.1073
+        },
+        "rescaled": {
+          "MAE": 2.0509,
+          "RMSE": 2.6963,
+          "R2": 0.7685,
+          "MAPE": 2.7983
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0241,
+          "RMSE": 0.031,
+          "R2": 0.8452,
+          "MAPE": 4.3389
+        },
+        "rescaled": {
+          "MAE": 0.8965,
+          "RMSE": 1.1569,
+          "R2": 0.8452,
+          "MAPE": 2.9463
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0259,
+          "RMSE": 0.0337,
+          "R2": 0.6888,
+          "MAPE": 4.3435
+        },
+        "rescaled": {
+          "MAE": 2.1695,
+          "RMSE": 2.8248,
+          "R2": 0.6888,
+          "MAPE": 2.9626
+        }
+      }
+    }
+  },
+  {
+    "tag": "catboost_tuned_h3_seed42",
+    "model": "CatBoost-Tuned",
+    "horizon": 3,
+    "seed": 42,
+    "window": 12,
+    "n_train": 11590,
+    "n_val": 418,
+    "n_test_temporal": 1330,
+    "n_test_spatial": 350,
+    "best_iter_temp": 315,
+    "best_iter_hum": 1281,
+    "best_val_MAE_temp_norm": 0.019499158666719415,
+    "best_val_MAE_hum_norm": 0.02397592993996594,
+    "train_time_min": 4.05,
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0217,
+          "RMSE": 0.0278,
+          "R2": 0.8701,
+          "MAPE": 3.905
+        },
+        "rescaled": {
+          "MAE": 0.8081,
+          "RMSE": 1.0343,
+          "R2": 0.8701,
+          "MAPE": 2.6569
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0245,
+          "RMSE": 0.0323,
+          "R2": 0.7611,
+          "MAPE": 4.1022
+        },
+        "rescaled": {
+          "MAE": 2.0501,
+          "RMSE": 2.7093,
+          "R2": 0.7611,
+          "MAPE": 2.7958
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.024,
+          "RMSE": 0.031,
+          "R2": 0.847,
+          "MAPE": 4.3414
+        },
+        "rescaled": {
+          "MAE": 0.8942,
+          "RMSE": 1.1553,
+          "R2": 0.847,
+          "MAPE": 2.944
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0259,
+          "RMSE": 0.0335,
+          "R2": 0.6871,
+          "MAPE": 4.3322
+        },
+        "rescaled": {
+          "MAE": 2.169,
+          "RMSE": 2.8056,
+          "R2": 0.6871,
+          "MAPE": 2.9575
+        }
+      }
+    }
+  },
+  {
+    "tag": "catboost_tuned_h3_seed7",
+    "model": "CatBoost-Tuned",
+    "horizon": 3,
+    "seed": 7,
+    "window": 12,
+    "n_train": 11590,
+    "n_val": 418,
+    "n_test_temporal": 1330,
+    "n_test_spatial": 350,
+    "best_iter_temp": 362,
+    "best_iter_hum": 1059,
+    "best_val_MAE_temp_norm": 0.01903551076680549,
+    "best_val_MAE_hum_norm": 0.024243435260575926,
+    "train_time_min": 3.2,
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0217,
+          "RMSE": 0.028,
+          "R2": 0.8676,
+          "MAPE": 3.9198
+        },
+        "rescaled": {
+          "MAE": 0.8104,
+          "RMSE": 1.0441,
+          "R2": 0.8676,
+          "MAPE": 2.6664
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0244,
+          "RMSE": 0.0323,
+          "R2": 0.7624,
+          "MAPE": 4.0791
+        },
+        "rescaled": {
+          "MAE": 2.044,
+          "RMSE": 2.7022,
+          "R2": 0.7624,
+          "MAPE": 2.7825
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0242,
+          "RMSE": 0.0313,
+          "R2": 0.8441,
+          "MAPE": 4.3836
+        },
+        "rescaled": {
+          "MAE": 0.902,
+          "RMSE": 1.1662,
+          "R2": 0.8441,
+          "MAPE": 2.9722
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0259,
+          "RMSE": 0.0335,
+          "R2": 0.6871,
+          "MAPE": 4.3211
+        },
+        "rescaled": {
+          "MAE": 2.1704,
+          "RMSE": 2.8053,
+          "R2": 0.6871,
+          "MAPE": 2.953
+        }
+      }
+    }
+  },
+  {
+    "tag": "catboost_tuned_h3_seed123",
+    "model": "CatBoost-Tuned",
+    "horizon": 3,
+    "seed": 123,
+    "window": 12,
+    "n_train": 11590,
+    "n_val": 418,
+    "n_test_temporal": 1330,
+    "n_test_spatial": 350,
+    "best_iter_temp": 309,
+    "best_iter_hum": 1621,
+    "best_val_MAE_temp_norm": 0.019063845102305077,
+    "best_val_MAE_hum_norm": 0.02390916838673413,
+    "train_time_min": 3.8,
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0216,
+          "RMSE": 0.0277,
+          "R2": 0.8701,
+          "MAPE": 3.89
+        },
+        "rescaled": {
+          "MAE": 0.8051,
+          "RMSE": 1.0341,
+          "R2": 0.8701,
+          "MAPE": 2.6469
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0244,
+          "RMSE": 0.0322,
+          "R2": 0.7636,
+          "MAPE": 4.071
+        },
+        "rescaled": {
+          "MAE": 2.0423,
+          "RMSE": 2.6953,
+          "R2": 0.7636,
+          "MAPE": 2.7779
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.024,
+          "RMSE": 0.0309,
+          "R2": 0.848,
+          "MAPE": 4.3407
+        },
+        "rescaled": {
+          "MAE": 0.8939,
+          "RMSE": 1.1516,
+          "R2": 0.848,
+          "MAPE": 2.9435
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.026,
+          "RMSE": 0.0335,
+          "R2": 0.6874,
+          "MAPE": 4.3349
+        },
+        "rescaled": {
+          "MAE": 2.1765,
+          "RMSE": 2.8039,
+          "R2": 0.6874,
+          "MAPE": 2.962
+        }
+      }
+    }
+  },
+  {
+    "tag": "catboost_tuned_h3_seed2024",
+    "model": "CatBoost-Tuned",
+    "horizon": 3,
+    "seed": 2024,
+    "window": 12,
+    "n_train": 11590,
+    "n_val": 418,
+    "n_test_temporal": 1330,
+    "n_test_spatial": 350,
+    "best_iter_temp": 350,
+    "best_iter_hum": 1169,
+    "best_val_MAE_temp_norm": 0.018883212926664332,
+    "best_val_MAE_hum_norm": 0.023996857922647052,
+    "train_time_min": 2.99,
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0217,
+          "RMSE": 0.0279,
+          "R2": 0.8687,
+          "MAPE": 3.9062
+        },
+        "rescaled": {
+          "MAE": 0.8074,
+          "RMSE": 1.0398,
+          "R2": 0.8687,
+          "MAPE": 2.6569
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0245,
+          "RMSE": 0.0323,
+          "R2": 0.7626,
+          "MAPE": 4.0948
+        },
+        "rescaled": {
+          "MAE": 2.0517,
+          "RMSE": 2.7011,
+          "R2": 0.7626,
+          "MAPE": 2.793
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0243,
+          "RMSE": 0.0312,
+          "R2": 0.8449,
+          "MAPE": 4.3963
+        },
+        "rescaled": {
+          "MAE": 0.904,
+          "RMSE": 1.163,
+          "R2": 0.8449,
+          "MAPE": 2.9802
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.026,
+          "RMSE": 0.0336,
+          "R2": 0.6849,
+          "MAPE": 4.3344
+        },
+        "rescaled": {
+          "MAE": 2.1756,
+          "RMSE": 2.8152,
+          "R2": 0.6849,
+          "MAPE": 2.9614
+        }
+      }
+    }
+  },
+  {
+    "tag": "catboost_tuned_h3_seed999",
+    "model": "CatBoost-Tuned",
+    "horizon": 3,
+    "seed": 999,
+    "window": 12,
+    "n_train": 11590,
+    "n_val": 418,
+    "n_test_temporal": 1330,
+    "n_test_spatial": 350,
+    "best_iter_temp": 363,
+    "best_iter_hum": 1224,
+    "best_val_MAE_temp_norm": 0.019038417052187718,
+    "best_val_MAE_hum_norm": 0.02421985666788817,
+    "train_time_min": 3.14,
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0215,
+          "RMSE": 0.0278,
+          "R2": 0.8698,
+          "MAPE": 3.8821
+        },
+        "rescaled": {
+          "MAE": 0.8027,
+          "RMSE": 1.0355,
+          "R2": 0.8698,
+          "MAPE": 2.6416
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0244,
+          "RMSE": 0.0321,
+          "R2": 0.7644,
+          "MAPE": 4.0745
+        },
+        "rescaled": {
+          "MAE": 2.0454,
+          "RMSE": 2.6907,
+          "R2": 0.7644,
+          "MAPE": 2.7809
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.024,
+          "RMSE": 0.0309,
+          "R2": 0.8476,
+          "MAPE": 4.3433
+        },
+        "rescaled": {
+          "MAE": 0.8937,
+          "RMSE": 1.1531,
+          "R2": 0.8476,
+          "MAPE": 2.9458
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0259,
+          "RMSE": 0.0333,
+          "R2": 0.6905,
+          "MAPE": 4.3115
+        },
+        "rescaled": {
+          "MAE": 2.1662,
+          "RMSE": 2.7902,
+          "R2": 0.6905,
+          "MAPE": 2.9468
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,69 @@
+========================================================================
+  CatBoost TUNED (26 features)  —  seed=42  window=12
+  Features: 26 × window 12 = 312 flat
+========================================================================
+Shapes: train=(11628, 312)  val=(456, 312)  t-test=(1368, 312)  s-test=(360, 312)
+
+  Training CatBoost for Temperature (seed=42) …
+    lr=0.012758  depth=8  l2=3.8478  rsm=0.6334
+  → best iter: 457   best val MAE (norm): 0.018465
+  → saved model to models/seed42_temperature.cbm
+
+  Training CatBoost for Humidity (seed=42) …
+    lr=0.008649  depth=8  l2=1.7725  rsm=0.6884
+  → best iter: 923   best val MAE (norm): 0.022528
+  → saved model to models/seed42_humidity.cbm
+
+  Training time: 4.12 min
+
+  Saving CatBoost built-in importances (reference) …
+  → CatBoost built-in importance saved to shap/feature_importance/temp_catboost_importance.csv
+  → CatBoost built-in importance saved to shap/feature_importance/hum_catboost_importance.csv
+
+  Saving SHAP values + SHAP importance (temporal test set) …
+  Computing SHAP on 1368 samples …
+  → SHAP done in 7.2s
+  → SHAP saved to shap/shap_values_temp_temporal.npz  shape=(1368, 312)
+  → SHAP feature importance saved to shap/feature_importance/temp_feature_importance_temporal.csv
+  Computing SHAP on 1368 samples …
+  → SHAP done in 15.7s
+  → SHAP saved to shap/shap_values_hum_temporal.npz  shape=(1368, 312)
+  → SHAP feature importance saved to shap/feature_importance/hum_feature_importance_temporal.csv
+
+  Saving SHAP values + SHAP importance (spatial test set) …
+  Computing SHAP on 360 samples …
+  → SHAP done in 7.1s
+  → SHAP saved to shap/shap_values_temp_spatial.npz  shape=(360, 312)
+  → SHAP feature importance saved to shap/feature_importance/temp_feature_importance_spatial.csv
+  Computing SHAP on 360 samples …
+  → SHAP done in 15.5s
+  → SHAP saved to shap/shap_values_hum_spatial.npz  shape=(360, 312)
+  → SHAP feature importance saved to shap/feature_importance/hum_feature_importance_spatial.csv
+
+════════════════════════════════════════════════════════════════════════
+  TEMPORAL TEST — catboost_tuned_seed42
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0203       0.7571
+  Temperature   RMSE         0.0260       0.9676
+  Temperature   R2           0.8879       0.8879
+  Temperature   MAPE         3.6671       2.4953
+  Humidity      MAE          0.0228       1.9106
+  Humidity      RMSE         0.0297       2.4860
+  Humidity      R2           0.8035       0.8035
+  Humidity      MAPE         3.8395       2.6131
+  → predictions saved to predictions/seed42_temporal_predictions.csv
+
+════════════════════════════════════════════════════════════════════════
+  SPATIAL TEST  — catboost_tuned_seed42
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0231       0.8594
+  Temperature   RMSE         0.0294       1.0973
+  Temperature   R2           0.8633       0.8633
+  Temperature   MAPE         4.1921       2.8418
+  Humidity      MAE          0.0241       2.0164
+  Humidity      RMSE         0.0309       2.5887
+  Humidity      R2           0.7362       0.7362
+  Humidity      MAPE         4.0389       2.7545
+  → predictions saved to predictions/seed42_spatial_predictions.csv

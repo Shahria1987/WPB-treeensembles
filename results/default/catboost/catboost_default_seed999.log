@@ -1,0 +1,36 @@
+========================================================================
+  CatBoost DEFAULT (26 features)  —  seed=999  window=12
+  Features: 26 × window 12 = 312 flat
+========================================================================
+
+  Training CatBoost (DEFAULT) for Temperature …
+  → best iter: 224   best val MAE (norm): 0.018982
+
+  Training CatBoost (DEFAULT) for Humidity …
+  → best iter: 267   best val MAE (norm): 0.022964
+
+════════════════════════════════════════════════════════════════════════
+  TEMPORAL TEST — catboost_default_seed999
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0205       0.7654
+  Temperature   RMSE         0.0262       0.9757
+  Temperature   R2           0.8859       0.8859
+  Temperature   MAPE         3.7101       2.5236
+  Humidity      MAE          0.0239       1.9975
+  Humidity      RMSE         0.0306       2.5618
+  Humidity      R2           0.7914       0.7914
+  Humidity      MAPE         4.0028       2.7270
+
+════════════════════════════════════════════════════════════════════════
+  SPATIAL TEST  — catboost_default_seed999
+════════════════════════════════════════════════════════════════════════
+  Target        Metric   Normalized     Rescaled
+  Temperature   MAE          0.0228       0.8501
+  Temperature   RMSE         0.0293       1.0921
+  Temperature   R2           0.8646       0.8646
+  Temperature   MAPE         4.1461       2.8100
+  Humidity      MAE          0.0250       2.0916
+  Humidity      RMSE         0.0316       2.6447
+  Humidity      R2           0.7247       0.7247
+  Humidity      MAPE         4.1814       2.8538

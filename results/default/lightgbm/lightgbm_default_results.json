@@ -1,0 +1,417 @@
+[
+  {
+    "tag": "lightgbm_default_seed42",
+    "model": "LightGBM-Default",
+    "seed": 42,
+    "window": 12,
+    "n_features": 26,
+    "n_flat_features": 312,
+    "best_iter_temp": 49,
+    "best_iter_hum": 82,
+    "best_val_temp": 0.019128975831591937,
+    "best_val_hum": 0.02250604355411135,
+    "train_time_min": 0.08,
+    "rescale": {
+      "temp": [
+        16.95,
+        39.31
+      ],
+      "hum": [
+        39.81,
+        90.06
+      ]
+    },
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0214,
+          "RMSE": 0.0271,
+          "R2": 0.8779,
+          "MAPE": 3.8668
+        },
+        "rescaled": {
+          "MAE": 0.7956,
+          "RMSE": 1.0096,
+          "R2": 0.8779,
+          "MAPE": 2.6272
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0237,
+          "RMSE": 0.0306,
+          "R2": 0.7918,
+          "MAPE": 3.9927
+        },
+        "rescaled": {
+          "MAE": 1.9852,
+          "RMSE": 2.5589,
+          "R2": 0.7918,
+          "MAPE": 2.7169
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0242,
+          "RMSE": 0.0306,
+          "R2": 0.8529,
+          "MAPE": 4.3998
+        },
+        "rescaled": {
+          "MAE": 0.9011,
+          "RMSE": 1.1386,
+          "R2": 0.8529,
+          "MAPE": 2.9802
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0251,
+          "RMSE": 0.032,
+          "R2": 0.7167,
+          "MAPE": 4.2331
+        },
+        "rescaled": {
+          "MAE": 2.0986,
+          "RMSE": 2.6829,
+          "R2": 0.7167,
+          "MAPE": 2.88
+        }
+      }
+    }
+  },
+  {
+    "tag": "lightgbm_default_seed7",
+    "model": "LightGBM-Default",
+    "seed": 7,
+    "window": 12,
+    "n_features": 26,
+    "n_flat_features": 312,
+    "best_iter_temp": 49,
+    "best_iter_hum": 82,
+    "best_val_temp": 0.019128975831591937,
+    "best_val_hum": 0.02250604355411135,
+    "train_time_min": 0.08,
+    "rescale": {
+      "temp": [
+        16.95,
+        39.31
+      ],
+      "hum": [
+        39.81,
+        90.06
+      ]
+    },
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0214,
+          "RMSE": 0.0271,
+          "R2": 0.8779,
+          "MAPE": 3.8668
+        },
+        "rescaled": {
+          "MAE": 0.7956,
+          "RMSE": 1.0096,
+          "R2": 0.8779,
+          "MAPE": 2.6272
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0237,
+          "RMSE": 0.0306,
+          "R2": 0.7918,
+          "MAPE": 3.9927
+        },
+        "rescaled": {
+          "MAE": 1.9852,
+          "RMSE": 2.5589,
+          "R2": 0.7918,
+          "MAPE": 2.7169
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0242,
+          "RMSE": 0.0306,
+          "R2": 0.8529,
+          "MAPE": 4.3998
+        },
+        "rescaled": {
+          "MAE": 0.9011,
+          "RMSE": 1.1386,
+          "R2": 0.8529,
+          "MAPE": 2.9802
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0251,
+          "RMSE": 0.032,
+          "R2": 0.7167,
+          "MAPE": 4.2331
+        },
+        "rescaled": {
+          "MAE": 2.0986,
+          "RMSE": 2.6829,
+          "R2": 0.7167,
+          "MAPE": 2.88
+        }
+      }
+    }
+  },
+  {
+    "tag": "lightgbm_default_seed123",
+    "model": "LightGBM-Default",
+    "seed": 123,
+    "window": 12,
+    "n_features": 26,
+    "n_flat_features": 312,
+    "best_iter_temp": 49,
+    "best_iter_hum": 82,
+    "best_val_temp": 0.019128975831591937,
+    "best_val_hum": 0.02250604355411135,
+    "train_time_min": 0.08,
+    "rescale": {
+      "temp": [
+        16.95,
+        39.31
+      ],
+      "hum": [
+        39.81,
+        90.06
+      ]
+    },
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0214,
+          "RMSE": 0.0271,
+          "R2": 0.8779,
+          "MAPE": 3.8668
+        },
+        "rescaled": {
+          "MAE": 0.7956,
+          "RMSE": 1.0096,
+          "R2": 0.8779,
+          "MAPE": 2.6272
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0237,
+          "RMSE": 0.0306,
+          "R2": 0.7918,
+          "MAPE": 3.9927
+        },
+        "rescaled": {
+          "MAE": 1.9852,
+          "RMSE": 2.5589,
+          "R2": 0.7918,
+          "MAPE": 2.7169
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0242,
+          "RMSE": 0.0306,
+          "R2": 0.8529,
+          "MAPE": 4.3998
+        },
+        "rescaled": {
+          "MAE": 0.9011,
+          "RMSE": 1.1386,
+          "R2": 0.8529,
+          "MAPE": 2.9802
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0251,
+          "RMSE": 0.032,
+          "R2": 0.7167,
+          "MAPE": 4.2331
+        },
+        "rescaled": {
+          "MAE": 2.0986,
+          "RMSE": 2.6829,
+          "R2": 0.7167,
+          "MAPE": 2.88
+        }
+      }
+    }
+  },
+  {
+    "tag": "lightgbm_default_seed2024",
+    "model": "LightGBM-Default",
+    "seed": 2024,
+    "window": 12,
+    "n_features": 26,
+    "n_flat_features": 312,
+    "best_iter_temp": 49,
+    "best_iter_hum": 82,
+    "best_val_temp": 0.019128975831591937,
+    "best_val_hum": 0.02250604355411135,
+    "train_time_min": 0.08,
+    "rescale": {
+      "temp": [
+        16.95,
+        39.31
+      ],
+      "hum": [
+        39.81,
+        90.06
+      ]
+    },
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0214,
+          "RMSE": 0.0271,
+          "R2": 0.8779,
+          "MAPE": 3.8668
+        },
+        "rescaled": {
+          "MAE": 0.7956,
+          "RMSE": 1.0096,
+          "R2": 0.8779,
+          "MAPE": 2.6272
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0237,
+          "RMSE": 0.0306,
+          "R2": 0.7918,
+          "MAPE": 3.9927
+        },
+        "rescaled": {
+          "MAE": 1.9852,
+          "RMSE": 2.5589,
+          "R2": 0.7918,
+          "MAPE": 2.7169
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0242,
+          "RMSE": 0.0306,
+          "R2": 0.8529,
+          "MAPE": 4.3998
+        },
+        "rescaled": {
+          "MAE": 0.9011,
+          "RMSE": 1.1386,
+          "R2": 0.8529,
+          "MAPE": 2.9802
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0251,
+          "RMSE": 0.032,
+          "R2": 0.7167,
+          "MAPE": 4.2331
+        },
+        "rescaled": {
+          "MAE": 2.0986,
+          "RMSE": 2.6829,
+          "R2": 0.7167,
+          "MAPE": 2.88
+        }
+      }
+    }
+  },
+  {
+    "tag": "lightgbm_default_seed999",
+    "model": "LightGBM-Default",
+    "seed": 999,
+    "window": 12,
+    "n_features": 26,
+    "n_flat_features": 312,
+    "best_iter_temp": 49,
+    "best_iter_hum": 82,
+    "best_val_temp": 0.019128975831591937,
+    "best_val_hum": 0.02250604355411135,
+    "train_time_min": 0.08,
+    "rescale": {
+      "temp": [
+        16.95,
+        39.31
+      ],
+      "hum": [
+        39.81,
+        90.06
+      ]
+    },
+    "temporal": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0214,
+          "RMSE": 0.0271,
+          "R2": 0.8779,
+          "MAPE": 3.8668
+        },
+        "rescaled": {
+          "MAE": 0.7956,
+          "RMSE": 1.0096,
+          "R2": 0.8779,
+          "MAPE": 2.6272
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0237,
+          "RMSE": 0.0306,
+          "R2": 0.7918,
+          "MAPE": 3.9927
+        },
+        "rescaled": {
+          "MAE": 1.9852,
+          "RMSE": 2.5589,
+          "R2": 0.7918,
+          "MAPE": 2.7169
+        }
+      }
+    },
+    "spatial": {
+      "temperature": {
+        "normalized": {
+          "MAE": 0.0242,
+          "RMSE": 0.0306,
+          "R2": 0.8529,
+          "MAPE": 4.3998
+        },
+        "rescaled": {
+          "MAE": 0.9011,
+          "RMSE": 1.1386,
+          "R2": 0.8529,
+          "MAPE": 2.9802
+        }
+      },
+      "humidity": {
+        "normalized": {
+          "MAE": 0.0251,
+          "RMSE": 0.032,
+          "R2": 0.7167,
+          "MAPE": 4.2331
+        },
+        "rescaled": {
+          "MAE": 2.0986,
+          "RMSE": 2.6829,
+          "R2": 0.7167,
+          "MAPE": 2.88
+        }
+      }
+    }
+  }
+]

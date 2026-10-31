@@ -1,0 +1,222 @@
+[
+  {
+    "seed": 42,
+    "train_time_min": 4.12,
+    "best_iter_temp": 457,
+    "best_iter_hum": 923,
+    "best_val_MAE_temp_norm": 0.018464980067137468,
+    "best_val_MAE_hum_norm": 0.022527674504004357,
+    "hyperparams": {
+      "temperature": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.012758037180210544,
+        "depth": 8,
+        "l2_leaf_reg": 3.847811635133765,
+        "bagging_temperature": 0.4140684194606276,
+        "random_strength": 0.0033453865372889253,
+        "min_data_in_leaf": 80,
+        "rsm": 0.6333709751024439,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 42
+      },
+      "humidity": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.008648828378800204,
+        "depth": 8,
+        "l2_leaf_reg": 1.7724554369785153,
+        "bagging_temperature": 0.7997150432496581,
+        "random_strength": 1.2099810816115689e-05,
+        "min_data_in_leaf": 45,
+        "rsm": 0.6884245108472264,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 42
+      }
+    }
+  },
+  {
+    "seed": 7,
+    "train_time_min": 3.79,
+    "best_iter_temp": 387,
+    "best_iter_hum": 864,
+    "best_val_MAE_temp_norm": 0.018814199366296913,
+    "best_val_MAE_hum_norm": 0.022994402110679275,
+    "hyperparams": {
+      "temperature": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.012758037180210544,
+        "depth": 8,
+        "l2_leaf_reg": 3.847811635133765,
+        "bagging_temperature": 0.4140684194606276,
+        "random_strength": 0.0033453865372889253,
+        "min_data_in_leaf": 80,
+        "rsm": 0.6333709751024439,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 7
+      },
+      "humidity": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.008648828378800204,
+        "depth": 8,
+        "l2_leaf_reg": 1.7724554369785153,
+        "bagging_temperature": 0.7997150432496581,
+        "random_strength": 1.2099810816115689e-05,
+        "min_data_in_leaf": 45,
+        "rsm": 0.6884245108472264,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 7
+      }
+    }
+  },
+  {
+    "seed": 123,
+    "train_time_min": 4.38,
+    "best_iter_temp": 381,
+    "best_iter_hum": 1072,
+    "best_val_MAE_temp_norm": 0.018862716170348164,
+    "best_val_MAE_hum_norm": 0.022606288346991396,
+    "hyperparams": {
+      "temperature": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.012758037180210544,
+        "depth": 8,
+        "l2_leaf_reg": 3.847811635133765,
+        "bagging_temperature": 0.4140684194606276,
+        "random_strength": 0.0033453865372889253,
+        "min_data_in_leaf": 80,
+        "rsm": 0.6333709751024439,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 123
+      },
+      "humidity": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.008648828378800204,
+        "depth": 8,
+        "l2_leaf_reg": 1.7724554369785153,
+        "bagging_temperature": 0.7997150432496581,
+        "random_strength": 1.2099810816115689e-05,
+        "min_data_in_leaf": 45,
+        "rsm": 0.6884245108472264,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 123
+      }
+    }
+  },
+  {
+    "seed": 2024,
+    "train_time_min": 4.05,
+    "best_iter_temp": 447,
+    "best_iter_hum": 888,
+    "best_val_MAE_temp_norm": 0.018568058127660002,
+    "best_val_MAE_hum_norm": 0.022743519259345278,
+    "hyperparams": {
+      "temperature": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.012758037180210544,
+        "depth": 8,
+        "l2_leaf_reg": 3.847811635133765,
+        "bagging_temperature": 0.4140684194606276,
+        "random_strength": 0.0033453865372889253,
+        "min_data_in_leaf": 80,
+        "rsm": 0.6333709751024439,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 2024
+      },
+      "humidity": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.008648828378800204,
+        "depth": 8,
+        "l2_leaf_reg": 1.7724554369785153,
+        "bagging_temperature": 0.7997150432496581,
+        "random_strength": 1.2099810816115689e-05,
+        "min_data_in_leaf": 45,
+        "rsm": 0.6884245108472264,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 2024
+      }
+    }
+  },
+  {
+    "seed": 999,
+    "train_time_min": 4.17,
+    "best_iter_temp": 392,
+    "best_iter_hum": 972,
+    "best_val_MAE_temp_norm": 0.0186664533277354,
+    "best_val_MAE_hum_norm": 0.02276032726796817,
+    "hyperparams": {
+      "temperature": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.012758037180210544,
+        "depth": 8,
+        "l2_leaf_reg": 3.847811635133765,
+        "bagging_temperature": 0.4140684194606276,
+        "random_strength": 0.0033453865372889253,
+        "min_data_in_leaf": 80,
+        "rsm": 0.6333709751024439,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 999
+      },
+      "humidity": {
+        "loss_function": "MAE",
+        "eval_metric": "MAE",
+        "verbose": 0,
+        "allow_writing_files": false,
+        "thread_count": -1,
+        "learning_rate": 0.008648828378800204,
+        "depth": 8,
+        "l2_leaf_reg": 1.7724554369785153,
+        "bagging_temperature": 0.7997150432496581,
+        "random_strength": 1.2099810816115689e-05,
+        "min_data_in_leaf": 45,
+        "rsm": 0.6884245108472264,
+        "iterations": 2500,
+        "early_stopping_rounds": 50,
+        "random_seed": 999
+      }
+    }
+  }
+]

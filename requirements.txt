@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+scipy
+catboost
+lightgbm
+xgboost
+optuna>=3.6,<5
+shap
+matplotlib
