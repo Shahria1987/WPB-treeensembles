@@ -34,10 +34,6 @@ python scripts/run_catboost_h2_h3.py
 python scripts/generate_paper_figures.py
 ```
 
-## Optuna
-
-`optuna/catboost_optuna_study.db` contains the studies `catboost_temperature` and `catboost_humidity` (50 trials each).
-
 ## Reference
 
 Kabir MA, Chakma C (2026). HTC-LSTM-Attn in Bangladesh. *PLOS ONE*. https://doi.org/10.1371/journal.pone.0342431
